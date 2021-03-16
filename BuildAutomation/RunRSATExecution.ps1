@@ -14,8 +14,8 @@ Param(
 
 [string]$RSATInstallationPath,
 
-    <#[Parameter(Mandatory=$false, HelpMessage="The installation folder of RSAT.")]
-    [string]$RSATInstallationPath = $Env:DynamicsRSATFolder,#>
+    [Parameter(Mandatory=$false, HelpMessage="The installation folder of RSAT.")]
+    [string]$RSATInstallationPath = $Env:DynamicsRSATFolder,
 
     [Parameter(Mandatory=$false, HelpMessage="Settings file to pass to the RSAT console application.")]
     [string]$SettingsFilePath = $(Join-Path -Path $Env:DynamicsRSATFolder -ChildPath "BuildSettings.settings"),
