@@ -1,0 +1,16 @@
+<TaskRecordingDynamicTestValues testCaseId="3" recordingName="PRPPE" playbackOrder="0">
+  <variableDictionary>
+    <variable id="" description="Recording Name" value="PRPPE" controltype="string" viewname="" />
+    <variable id="" description="Test Case Id" value="3" controltype="string" viewname="" />
+    <variable id="" description="application" value="POS" controltype="string" viewname="" />
+    <variable id="" description="applicationType" value="CloudPos" controltype="string" viewname="" />
+    <variable id="" description="applicationVersion" value="9.26.21038.2" controltype="string" viewname="" />
+    <variable id="" description="recordingVersion" value="1.7" controltype="string" viewname="" />
+    <variable id="b67937db-7aa4-bb8f-9a6f-9c76da87a5fa" description="In &quot;Operator ID&quot; set value to &quot;1443514&quot;" value="1443514" controltype="unknown" viewname="LoginView" />
+    <variable id="50b700cd-35c5-8cb4-5817-5d5ade01da50" description="In &quot;Enter keyword to find&quot; set value to &quot;hdq-00001&quot;" value="hdq-00001" controltype="unknown" viewname="CartView" />
+    <variable id="6c77322d-9d64-aadb-e9f9-37d46def9f45" description="In &quot;Add filter Operator ID&quot; set value to &quot;1443514&quot;" value="1443514" controltype="unknown" viewname="ShowJournalView" />
+    <variable id="ef5f6c38-ced6-b8d6-16d5-3a08ade72b4e" description="In &quot;Please provide detail for the Return reason. Microsoft® MS Classic IntelliMouse Win USB Port EN/XC/XD/XX&quot; set value to &quot;test&quot;" value="test" controltype="unknown" viewname="ReturnTransactionView" />
+    <variable id="0728d105-a1b0-390d-eab5-d503b4aed20b" description="In &quot;Add filter Operator ID&quot; set value to &quot;1443514&quot;" value="1443514" controltype="unknown" viewname="ShowJournalView" />
+    <variable id="49b39670-1bbd-95af-f038-01d5dda5a42b" description="Validation on &quot;No returnable products were found for the receipt&quot;" value="No returnable products were found for the receipt" controltype="multilinestring" viewname="ReturnTransactionView" />
+  </variableDictionary>
+</TaskRecordingDynamicTestValues>
