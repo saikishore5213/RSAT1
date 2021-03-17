@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<?Copyright (c) Microsoft Corporation. All rights reserved.?>
+<InstrumentationManifest>
+  <Instrumentation>
+    <Regions>
+      <RegionRoot Guid="{55B7CE14-CAB1-4590-AEEB-D2EEA4C2D067}" Name="Application-Suite-SQL-Statements" FriendlyName="SQL Statements">
+              <Region Guid="{BBF29CDB-02FF-4631-B8E2-581120B805AD}" Name="SQL-Statement">
+                <Start>
+                  <Event Provider="{B518FD3F-6D6F-46D3-BC51-F765226A4FE2}" Id="45038" Version="0" />
+                </Start>
+                <Stop>
+                  <Event Provider="{B518FD3F-6D6F-46D3-BC51-F765226A4FE2}" Id="45039" Version="0" />
+                </Stop>
+                <Match>
+                  <Event TID="true" PID="true">
+                    <Payload FieldName="requestId" TargetFieldName="requestId" />
+                    <Payload FieldName="sessionId" TargetFieldName="sessionId" />
+                    <Payload FieldName="userId" TargetFieldName="userId" />
+                    <Payload FieldName="customer" TargetFieldName="customer" />
+					<Payload FieldName="SQLStatement" TargetFieldName="SQLStatement" />
+                  </Event>
+                </Match>
+                <Naming>
+                  <PayloadBased NameField="SQLStatement" />
+                </Naming>
+              </Region>
+      </RegionRoot>
+    </Regions>
+  </Instrumentation>
+</InstrumentationManifest>

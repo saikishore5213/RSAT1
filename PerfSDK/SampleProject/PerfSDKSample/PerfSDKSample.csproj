@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<!--  THIS IS A TEMPLATE PROJECT, IT'S NOT PART OF THE BUILD 
+      AND IT'S SUPPOSED TO BE USED WITHOUT ENLISTMENT ONLY.
+      PLEASE DO NOT MAKE CHANGES IN THIS TEMPLATE. -->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1B3481DA-1533-44CD-8516-EA1D20E52683}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GettingStartedWithLoadTesting</RootNamespace>
+    <AssemblyName>GettingStartedWithLoadTesting</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TestProjectType>WebTest</TestProjectType>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <ReferencePath>$(ProgramFiles)\Common Files\microsoft shared\VSTT\$(VisualStudioVersion)\UITestExtensionPackages</ReferencePath>
+    <IsCodedUITest>False</IsCodedUITest>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.IdentityModel, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Microsoft.IdentityModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.QualityTools.LoadTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="MS.Dynamics.TestTools.ApplicationFoundationProxyLibrary">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\MS.Dynamics.TestTools.ApplicationFoundationProxyLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="MS.Dynamics.TestTools.ApplicationFoundationUIHelpers">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\MS.Dynamics.TestTools.ApplicationFoundationUIHelpers.dll</HintPath>
+    </Reference>
+    <Reference Include="MS.Dynamics.TestTools.ApplicationPlatformProxyLibrary">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\MS.Dynamics.TestTools.ApplicationPlatformProxyLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="MS.Dynamics.TestTools.ApplicationSuiteProxyLibrary">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\MS.Dynamics.TestTools.ApplicationSuiteProxyLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="MS.Dynamics.TestTools.ApplicationSuiteUIHelpers">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\MS.Dynamics.TestTools.ApplicationSuiteUIHelpers.dll</HintPath>
+    </Reference>
+    <Reference Include="MS.Dynamics.TestTools.FoundationTestCommonProxyLibrary">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\MS.Dynamics.TestTools.FoundationTestCommonProxyLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="MS.Dynamics.TestTools.UIHelpers.Core">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\MS.Dynamics.TestTools.UIHelpers.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="Microsoft.Dynamics.AX.Framework.Services.Platform.Client">
+      <HintPath>..\..\Microsoft.Dynamics.AX.Framework.Services.Platform.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.TestTools.Dispatcher">
+      <HintPath>..\..\Microsoft.Dynamics.TestTools.Dispatcher.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.TestTools.Dispatcher.Client">
+      <HintPath>..\..\Microsoft.Dynamics.TestTools.Dispatcher.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamics.TestTools.Dispatcher.JsDispatcher">
+      <HintPath>..\..\Microsoft.Dynamics.TestTools.Dispatcher.JsDispatcher.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="MS.Dynamics.Performance.Framework">
+      <HintPath>..\..\MS.Dynamics.Performance.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="MS.Dynamics.TestTools.CloudCommonTestUtilities">
+      <HintPath>..\..\MS.Dynamics.TestTools.CloudCommonTestUtilities.dll</HintPath>
+    </Reference>
+    <Reference Include="MS.Dynamics.TestTools.Common">
+      <HintPath>..\..\MS.Dynamics.TestTools.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="MS.Dynamics.TestTools.SubledgerProxyLibrary">
+      <HintPath>..\..\MS.Dynamics.TestTools.SubledgerProxyLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IdentityModel" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ProcureToPayTrend.cs" />
+    <Compile Include="ProcureToPayItemArrivalTest.cs" />
+    <Compile Include="TransferOrderCreationReceiveTest.cs" />
+    <Compile Include="GeneralJournalPostTrend.cs" />
+    <Compile Include="ExpenseReportSubmitBase.cs" />
+    <Compile Include="OrderToCashTrend.cs" />
+    <Compile Include="PurchaseReq.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="..\README" />
+    <None Include="..\..\CloudEnvironment.Config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SampleLoadTest.loadtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <Choose>
+    <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.CodedUITestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Extension, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITesting, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+      </ItemGroup>
+    </When>
+  </Choose>
+  <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

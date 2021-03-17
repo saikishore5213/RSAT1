@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+***********************************************************************************************
+AxProxyGeneratorTask.targets
+
+This file defines the custom build targets and actions for generating C# proxies to access
+X++ types.
+
+Copyright (C) Microsoft Corporation. All rights reserved.
+***********************************************************************************************
+-->
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ProjectReference Include="$(INETROOT)\Source\TestCommon\Core\CloudCommonTestUtilities\CloudCommonTestUtilities.csproj">
+      <Project>{E2F32EB6-E3C1-40AB-8C57-B61FC4417071}</Project>
+    </ProjectReference>
+    <ProjectReference Include="$(INETROOT)\Source\TestCommon\Core\Dispatcher\DispatcherClientLib\DispatcherClientLib.csproj">
+      <Project>{B4B24870-EED2-47C4-8550-75BAE4458625}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <UsingTask AssemblyFile="$(TESTROOT)\MS.Dynamics.TestTools.AxProxyGenerator.dll" TaskName="GenerateAxProxy" />
+  <PropertyGroup>
+    <!-- Plugin the X++ proxy tasks to compile & clean -->
+    <AutoGenDestinationPath>$(MSBuildProjectDirectory)\Generated</AutoGenDestinationPath>
+    <BuildDependsOn>GenerateAxProxies;$(BuildDependsOn)</BuildDependsOn>
+    <CleanDependsOn>CleanGeneratedAxProxies;$(CleanDependsOn)</CleanDependsOn>
+  </PropertyGroup>
+  <Target Name="GenerateAxProxies" DependsOnTargets="_LocateProxyListFiles">
+    <!-- Invoke the custom task to generate the X++ proxies in the output C# files. This task uses MSBuild batching,
+         which invokes the task once for each input file. -->
+    <GenerateAxProxy InputFiles="@(ProxyListFile)" OutputFolder="$(AutoGenDestinationPath)" KnownTypesName="$(AssemblyName).KnownTypes.xml" Condition="'@(ProxyListFile)' != ''">
+      <Output ItemName="Compile" TaskParameter="FilesGenerated" />
+    </GenerateAxProxy>
+  </Target>
+  <Target Name="CleanGeneratedAxProxies">
+    <RemoveDir Directories="$(AutoGenDestinationPath)" />
+  </Target>
+  <Target Name="_LocateProxyListFiles">
+    <!-- Figure out .proxyList files included in the project -->
+    <CreateItem Include="@(Compile);@(None)" Condition="'%(Extension)' == '.proxyList'">
+      <Output TaskParameter="Include" ItemName="ProxyListFile" />
+    </CreateItem>
+  </Target>
+</Project>

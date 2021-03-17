@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<WindowsPerformanceRecorder
+ Author="Microsoft Dynamics AX Application"
+ Comments="Dynamics AX Performance Profiling for Application"
+ Company="Microsoft Corporation"
+ Copyright="Microsoft Corporation"
+ Team="Microsoft Dynamics AX"
+ Version="1.0"> 
+
+ <Profiles> 
+
+ <!-- The system collector is necessary when you want to capture callstacks -->
+ <SystemCollector Id="SystemCollector_Stacks" Name="NT Kernel Logger">
+   <BufferSize Value="1024"/>
+   <Buffers Value="1024"/>
+ </SystemCollector>
+
+ <!-- Buffer sizes are specified in KB -->
+ <EventCollector Id="AXPerfTrace" Name="AX Perf Tracing" ProcessPrivate="false" Secure="false" Realtime="false">
+   <BufferSize Value="1024"/>
+   <Buffers Value="1024"/>
+ </EventCollector>
+
+ <EventCollector Id="DotNet" Name="Dot Net Collector">
+   <BufferSize Value="512"/>
+   <Buffers Value="512"/>
+ </EventCollector>
+
+ <!-- Similarly the system provider here captures callstacks -->
+ <!-- Keywords defined at http://msdn.microsoft.com/en-us/library/windows/hardware/hh448147.aspx -->
+ <SystemProvider Id="system-provider">
+   <Keywords>
+     <Keyword Value="ProcessThread" />
+     <Keyword Value="Loader" />
+   </Keywords>
+ </SystemProvider>
+
+ <!-- Our custom ETW Providers and their associated GUIDs -->
+ <EventProvider Id="Microsoft-Dynamics-AX-FormServer" Name="17712ABF-12A2-46AB-A53C-6BAEBDBF6F0E"/>
+ <EventProvider Id="Microsoft-Dynamics-AX-XppExecutionTraces" Name="C0D248CE-634D-426B-9E31-5A50A6D83024"/>
+ <EventProvider Id="Microsoft-Dynamics-AX-Application" Stack="true" Name="1E9413A1-292A-409F-9A3D-1E9F3A9E5EE6"/>
+ <EventProvider Id="Microsoft-Dynamics-AX-ApplicationServices" Stack="true" Name="4010E669-DE2B-41A2-981C-9E96BAB02558"/>
+ <EventProvider Id="Microsoft-Dynamics-AX-BatchService" Stack="true" Name="58E88862-E49B-4E4A-9C57-8EFE4DD55A7C"/>
+ <EventProvider Id="Microsoft-Dynamics-AX-SourceDocumentation" Stack="true" Name="2A015739-A5A5-4D16-8A80-BC0B904852D1"/>
+ <EventProvider Id="Microsoft-Dynamics-AX-Events" Name="7cef8bbe-6435-42bb-af4f-975af2047a1d"/>
+ <EventProvider Id="Microsoft-Dynamics-AX-SystemRuntime" Name="B518FD3F-6D6F-46D3-BC51-F765226A4FE2"/>
+ <EventProvider Id="Microsoft-Dynamics-AX-ExecutionTraces" Name="70560195-BECD-45D4-AC93-97290953AD02"/>
+ 
+ <!-- Profile for full tracing including callstacks -->
+ <Profile Id="AXPerfTraceProfile.Verbose.File" 
+ LoggingMode="File" 
+ Name="AXPerfTraceProfile" 
+ DetailLevel="Verbose" 
+ Description="Xpp Analysis">
+	<ProblemCategories>
+		<ProblemCategory Value="First Level Triage" />
+	</ProblemCategories>
+   <Collectors> 
+     <EventCollectorId Value="AXPerfTrace">
+       <EventProviders>
+         <EventProviderId Value="Microsoft-Dynamics-AX-FormServer"/>
+         <EventProviderId Value="Microsoft-Dynamics-AX-XppExecutionTraces"/>
+         <EventProviderId Value="Microsoft-Dynamics-AX-Application"/>
+         <EventProviderId Value="Microsoft-Dynamics-AX-ApplicationServices"/>	
+         <EventProviderId Value="Microsoft-Dynamics-AX-SourceDocumentation"/>
+         <EventProviderId Value="Microsoft-Dynamics-AX-Events"/>
+         <EventProviderId Value="Microsoft-Dynamics-AX-SystemRuntime"/>		 
+         <EventProviderId Value="Microsoft-Dynamics-AX-ExecutionTraces"/>	
+         <EventProviderId Value="Microsoft-Dynamics-AX-BatchService"/>
+       </EventProviders>
+     </EventCollectorId>
+   </Collectors>
+ </Profile>
+
+<Profile Id="AXPerfTraceProfile.Verbose.Memory" 
+ LoggingMode="Memory"
+ Name="AXPerfTraceProfile" 
+ DetailLevel="Verbose" 
+ Description="AX Tracing for application analysis"
+ Base="AXPerfTraceProfile.Verbose.File"/>
+
+
+ <!-- Profile for light tracing, just interaction handler and app events -->
+<Profile Id="AXPerfTraceProfile.Light.File" 
+ LoggingMode="File" 
+ Name="AXPerfTraceProfile" 
+ Default="true"
+ DetailLevel="Light" 
+ Base="BaseProfile.Verbose"
+ Description="Xpp Analysis">
+   <Collectors> 
+     <EventCollectorId Value="AXPerfTrace">
+       <EventProviders>
+         <EventProviderId Value="Microsoft-Dynamics-AX-FormServer"/>
+         <EventProviderId Value="Microsoft-Dynamics-AX-Events"/>
+         <EventProviderId Value="Microsoft-Dynamics-AX-Application"/>
+         <EventProviderId Value="Microsoft-Dynamics-AX-ApplicationServices"/>
+         <EventProviderId Value="Microsoft-Dynamics-AX-BatchService"/>	
+
+         <!-- Only capture information (level 4) in light trace -->
+<!--         <EventProvider Id="Microsoft-Dynamics-AX-Application" Stack="true" Name="1E9413A1-292A-409F-9A3D-1E9F3A9E5EE6" Level="4"/> 
+         <EventProvider Id="Microsoft-Dynamics-AX-SourceDocumentation" Stack="true" Name="2A015739-A5A5-4D16-8A80-BC0B904852D1" Level="4"/> -->
+       </EventProviders>
+     </EventCollectorId>
+   </Collectors>
+ </Profile>
+
+<Profile Id="AXPerfTraceProfile.Light.Memory"
+ LoggingMode="Memory"
+ Name="AXPerfTraceProfile" 
+ DetailLevel="Light" 
+ Description="AX Tracing for application analysis"
+ Base="AXPerfTraceProfile.Light.File"/> 
+
+ </Profiles>
+</WindowsPerformanceRecorder>

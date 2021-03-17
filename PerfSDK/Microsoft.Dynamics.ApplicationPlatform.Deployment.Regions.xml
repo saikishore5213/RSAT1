@@ -1,0 +1,652 @@
+﻿
+
+
+
+<InstrumentationManifest>
+	<Instrumentation>
+		<Regions>
+			<RegionRoot Guid="{e563b0ad-0f6d-4365-ac34-73620669f49f}" Name="d:\dbs\Cx\l23t\.A\MsBuild.Corext.CT1Bd7U7E7_q1hBCssLvYw\v15.0\bin\MSBuild.exe">
+					<Region Name="PowerBIServiceSetupTask" Guid="{087a6c82-f276-4709-a9a6-94c09cde2195}">
+					<Start>
+						<Event Provider="{4DFE6E5D-4D02-4BAD-97F9-74BAC0BEB990}" Id="0" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{4DFE6E5D-4D02-4BAD-97F9-74BAC0BEB990}" Id="1" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="PowerBIImportPbix" Guid="{28f8ad4f-30bb-4a01-9f76-f6e076acd0e7}">
+					<Start>
+						<Event Provider="{4DFE6E5D-4D02-4BAD-97F9-74BAC0BEB990}" Id="2" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{4DFE6E5D-4D02-4BAD-97F9-74BAC0BEB990}" Id="3" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="PowerBIDeployPbix" Guid="{22df3113-ff02-448f-829d-e73a4ea824e2}">
+					<Start>
+						<Event Provider="{4DFE6E5D-4D02-4BAD-97F9-74BAC0BEB990}" Id="4" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{4DFE6E5D-4D02-4BAD-97F9-74BAC0BEB990}" Id="5" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="PowerBIUpdateDatasourceConnection" Guid="{3789b206-8d61-472e-8c3a-b22e5e276bc7}">
+					<Start>
+						<Event Provider="{4DFE6E5D-4D02-4BAD-97F9-74BAC0BEB990}" Id="6" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{4DFE6E5D-4D02-4BAD-97F9-74BAC0BEB990}" Id="7" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="PowerBIUpdateCredentials" Guid="{4a7eab54-bba5-4f50-9214-1fb8131ac5b6}">
+					<Start>
+						<Event Provider="{4DFE6E5D-4D02-4BAD-97F9-74BAC0BEB990}" Id="8" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{4DFE6E5D-4D02-4BAD-97F9-74BAC0BEB990}" Id="9" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="BIMeasurementDeploymentTask" Guid="{aadd132a-ff30-43a9-8413-c339c8734e51}">
+					<Start>
+						<Event Provider="{060991E2-C11B-4AB6-B7D2-319130825A2E}" Id="0" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{060991E2-C11B-4AB6-B7D2-319130825A2E}" Id="1" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="BIMeasurementProcessingTask" Guid="{a183b5d3-ef8f-4379-8c91-b818bf3f8326}">
+					<Start>
+						<Event Provider="{060991E2-C11B-4AB6-B7D2-319130825A2E}" Id="2" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{060991E2-C11B-4AB6-B7D2-319130825A2E}" Id="3" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="BITablePopulationTask" Guid="{3802db2f-430f-4d7c-aaba-a319da0a5126}">
+					<Start>
+						<Event Provider="{060991E2-C11B-4AB6-B7D2-319130825A2E}" Id="4" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{060991E2-C11B-4AB6-B7D2-319130825A2E}" Id="5" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="BITableCreationTask" Guid="{d56f6536-9b01-41c1-994a-aa684963b869}">
+					<Start>
+						<Event Provider="{060991E2-C11B-4AB6-B7D2-319130825A2E}" Id="6" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{060991E2-C11B-4AB6-B7D2-319130825A2E}" Id="7" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="BIIndexCreationTask" Guid="{2dec2949-f07b-4d11-b17f-cb0f2863e33d}">
+					<Start>
+						<Event Provider="{060991E2-C11B-4AB6-B7D2-319130825A2E}" Id="8" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{060991E2-C11B-4AB6-B7D2-319130825A2E}" Id="9" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="BIIndexDeletionTask" Guid="{1085da60-acd3-4791-b631-c6a7639126db}">
+					<Start>
+						<Event Provider="{060991E2-C11B-4AB6-B7D2-319130825A2E}" Id="10" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{060991E2-C11B-4AB6-B7D2-319130825A2E}" Id="11" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="BIMeasurementUpdateTask" Guid="{6620be9b-cf97-4b1f-ae09-c777520b87ec}">
+					<Start>
+						<Event Provider="{060991E2-C11B-4AB6-B7D2-319130825A2E}" Id="12" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{060991E2-C11B-4AB6-B7D2-319130825A2E}" Id="13" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="BITableUpdateTask" Guid="{51c4e10f-f081-40bd-a399-3a9b7980f30e}">
+					<Start>
+						<Event Provider="{060991E2-C11B-4AB6-B7D2-319130825A2E}" Id="14" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{060991E2-C11B-4AB6-B7D2-319130825A2E}" Id="15" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="BITableUpdateStageDataTask" Guid="{7c21c7de-b15e-4a28-961e-6d734e6156ab}">
+					<Start>
+						<Event Provider="{060991E2-C11B-4AB6-B7D2-319130825A2E}" Id="16" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{060991E2-C11B-4AB6-B7D2-319130825A2E}" Id="17" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="BIMeasurementSchemaInitializationTask" Guid="{9057bfe2-2a35-46ff-9c63-2daa6959cc75}">
+					<Start>
+						<Event Provider="{060991E2-C11B-4AB6-B7D2-319130825A2E}" Id="18" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{060991E2-C11B-4AB6-B7D2-319130825A2E}" Id="19" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="BILinkingTask" Guid="{1282f3bd-0492-4cee-926f-0d7bc708de9e}">
+					<Start>
+						<Event Provider="{060991E2-C11B-4AB6-B7D2-319130825A2E}" Id="20" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{060991E2-C11B-4AB6-B7D2-319130825A2E}" Id="21" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="BISchedulerTask" Guid="{ddaebc3c-1a5e-49c8-be91-723f26146a77}">
+					<Start>
+						<Event Provider="{060991E2-C11B-4AB6-B7D2-319130825A2E}" Id="22" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{060991E2-C11B-4AB6-B7D2-319130825A2E}" Id="23" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="BIMeasurementSchedulingIncrementalUpdateTask" Guid="{5ec31835-8971-4bea-8201-c13fcc28bcde}">
+					<Start>
+						<Event Provider="{060991E2-C11B-4AB6-B7D2-319130825A2E}" Id="24" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{060991E2-C11B-4AB6-B7D2-319130825A2E}" Id="25" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="BIMeasurementSchedulingFullResetTask" Guid="{daa26376-eda4-4533-9272-e42111289e33}">
+					<Start>
+						<Event Provider="{060991E2-C11B-4AB6-B7D2-319130825A2E}" Id="26" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{060991E2-C11B-4AB6-B7D2-319130825A2E}" Id="27" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="CDSAModelGenerationTask" Guid="{df8e4344-bb2c-461a-b21e-97b58596bd74}">
+					<Start>
+						<Event Provider="{060991E2-C11B-4AB6-B7D2-319130825A2E}" Id="28" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{060991E2-C11B-4AB6-B7D2-319130825A2E}" Id="29" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="CDSADataGenerationTask" Guid="{9dcb6783-4637-4aec-9874-1f973e86539a}">
+					<Start>
+						<Event Provider="{060991E2-C11B-4AB6-B7D2-319130825A2E}" Id="30" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{060991E2-C11B-4AB6-B7D2-319130825A2E}" Id="31" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="CDSAEntityGenerationTask" Guid="{6a6ce61c-e7e9-49cf-8cea-47337e237eaf}">
+					<Start>
+						<Event Provider="{060991E2-C11B-4AB6-B7D2-319130825A2E}" Id="32" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{060991E2-C11B-4AB6-B7D2-319130825A2E}" Id="33" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="CDSABlobGenerationTask" Guid="{1f51d1ba-efe6-4e7d-abd1-cfbef7e845ac}">
+					<Start>
+						<Event Provider="{060991E2-C11B-4AB6-B7D2-319130825A2E}" Id="34" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{060991E2-C11B-4AB6-B7D2-319130825A2E}" Id="35" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="CDSATableToBlobsGenerationTask" Guid="{8b973836-01e3-481c-b82a-21a3ebb21d7b}">
+					<Start>
+						<Event Provider="{060991E2-C11B-4AB6-B7D2-319130825A2E}" Id="36" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{060991E2-C11B-4AB6-B7D2-319130825A2E}" Id="37" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="CDSATableToBlobsIncrementalUpdateTask" Guid="{3d09e62e-4a77-48ec-9016-86983b46f862}">
+					<Start>
+						<Event Provider="{060991E2-C11B-4AB6-B7D2-319130825A2E}" Id="38" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{060991E2-C11B-4AB6-B7D2-319130825A2E}" Id="39" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="CDSATableToBlobIncrementalUpdateTask" Guid="{e7920aa6-17fc-469f-823a-817a081b2404}">
+					<Start>
+						<Event Provider="{060991E2-C11B-4AB6-B7D2-319130825A2E}" Id="40" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{060991E2-C11B-4AB6-B7D2-319130825A2E}" Id="41" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="CDSATableToBlockIncrementalUpdateTask" Guid="{7f455921-f8ea-4bf1-9dea-67323c9720c7}">
+					<Start>
+						<Event Provider="{060991E2-C11B-4AB6-B7D2-319130825A2E}" Id="42" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{060991E2-C11B-4AB6-B7D2-319130825A2E}" Id="43" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="CDSADataIncrementalUpdateTask" Guid="{254ff8c6-c4f3-493d-a2a9-598d8ca9b0d0}">
+					<Start>
+						<Event Provider="{060991E2-C11B-4AB6-B7D2-319130825A2E}" Id="44" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{060991E2-C11B-4AB6-B7D2-319130825A2E}" Id="45" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="CDSAEntityIncrementalUpdateTask" Guid="{6338a11f-72a7-4398-8190-afc6ccc4b115}">
+					<Start>
+						<Event Provider="{060991E2-C11B-4AB6-B7D2-319130825A2E}" Id="46" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{060991E2-C11B-4AB6-B7D2-319130825A2E}" Id="47" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="AddTrackedTablesTask" Guid="{2f58e93b-0410-4150-9e05-d623ef4f9081}">
+					<Start>
+						<Event Provider="{060991E2-C11B-4AB6-B7D2-319130825A2E}" Id="48" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{060991E2-C11B-4AB6-B7D2-319130825A2E}" Id="49" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="DeleteTrackedTablesTask" Guid="{7ad63508-7cdc-41d1-b01c-0cbee9b6934f}">
+					<Start>
+						<Event Provider="{060991E2-C11B-4AB6-B7D2-319130825A2E}" Id="50" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{060991E2-C11B-4AB6-B7D2-319130825A2E}" Id="51" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="CheckBestPracticesTask" Guid="{e83cc7a6-6f6a-4b48-894d-651829514d02}">
+					<Start>
+						<Event Provider="{060991E2-C11B-4AB6-B7D2-319130825A2E}" Id="52" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{060991E2-C11B-4AB6-B7D2-319130825A2E}" Id="53" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="CASSetupTask" Guid="{90069c81-d851-4274-b0e5-75519fba9138}">
+					<Start>
+						<Event Provider="{A866631F-3D45-491C-8781-56F5F4D6C433}" Id="0" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{A866631F-3D45-491C-8781-56F5F4D6C433}" Id="1" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="CASResourceGroupProvisioningTask" Guid="{01b9b98d-b000-458c-b7ca-ef3fb4797a23}">
+					<Start>
+						<Event Provider="{A866631F-3D45-491C-8781-56F5F4D6C433}" Id="2" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{A866631F-3D45-491C-8781-56F5F4D6C433}" Id="3" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="CASStorageAccountProvisioningTask" Guid="{887fe7c7-d2cd-4dbc-b9bc-7e98f865b2ef}">
+					<Start>
+						<Event Provider="{A866631F-3D45-491C-8781-56F5F4D6C433}" Id="4" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{A866631F-3D45-491C-8781-56F5F4D6C433}" Id="5" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="CASDataFactoryProvisioningTask" Guid="{b906cc7d-6c34-4be4-a476-b8157405d055}">
+					<Start>
+						<Event Provider="{A866631F-3D45-491C-8781-56F5F4D6C433}" Id="6" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{A866631F-3D45-491C-8781-56F5F4D6C433}" Id="7" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="CASStorageKeyRetrievalProvisioningTask" Guid="{9f5cc209-aa86-4b01-966e-f03e1d7bcf58}">
+					<Start>
+						<Event Provider="{A866631F-3D45-491C-8781-56F5F4D6C433}" Id="8" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{A866631F-3D45-491C-8781-56F5F4D6C433}" Id="9" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="CASAppProvisioningTask" Guid="{a4cd37d6-755e-4594-b5d9-e3f4aa3048b4}">
+					<Start>
+						<Event Provider="{A866631F-3D45-491C-8781-56F5F4D6C433}" Id="10" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{A866631F-3D45-491C-8781-56F5F4D6C433}" Id="11" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="CASDeploymentTask" Guid="{ce48e06b-5959-4248-a410-2175a0b57767}">
+					<Start>
+						<Event Provider="{A866631F-3D45-491C-8781-56F5F4D6C433}" Id="12" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{A866631F-3D45-491C-8781-56F5F4D6C433}" Id="13" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="ADFDeploymentTask" Guid="{7946db1b-4fca-4c19-a859-689d20f759c5}">
+					<Start>
+						<Event Provider="{A866631F-3D45-491C-8781-56F5F4D6C433}" Id="14" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{A866631F-3D45-491C-8781-56F5F4D6C433}" Id="15" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="ADFHubDeploymentTask" Guid="{3e6b4cca-4589-429e-91de-e989f490e499}">
+					<Start>
+						<Event Provider="{A866631F-3D45-491C-8781-56F5F4D6C433}" Id="16" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{A866631F-3D45-491C-8781-56F5F4D6C433}" Id="17" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="ADFLinkedServicesDeploymentTask" Guid="{ca6e9554-4dd5-46c5-9e94-9e45c8443826}">
+					<Start>
+						<Event Provider="{A866631F-3D45-491C-8781-56F5F4D6C433}" Id="18" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{A866631F-3D45-491C-8781-56F5F4D6C433}" Id="19" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="ADFDatasetsDeploymentTask" Guid="{dbfbc8af-d22d-45a4-8aa9-b9feaff323ec}">
+					<Start>
+						<Event Provider="{A866631F-3D45-491C-8781-56F5F4D6C433}" Id="20" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{A866631F-3D45-491C-8781-56F5F4D6C433}" Id="21" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="ADFDependenciesDeploymentTask" Guid="{53355605-d97f-482e-84db-a5fad3ba6348}">
+					<Start>
+						<Event Provider="{A866631F-3D45-491C-8781-56F5F4D6C433}" Id="22" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{A866631F-3D45-491C-8781-56F5F4D6C433}" Id="23" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="ADFPipelinesDeploymentTask" Guid="{67025e06-759f-4d5c-b5ac-6d49268fc198}">
+					<Start>
+						<Event Provider="{A866631F-3D45-491C-8781-56F5F4D6C433}" Id="24" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{A866631F-3D45-491C-8781-56F5F4D6C433}" Id="25" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="ADFLinkedServiceDeploymentTask" Guid="{3186a898-fe08-445a-b3e6-692858b88fdd}">
+					<Start>
+						<Event Provider="{A866631F-3D45-491C-8781-56F5F4D6C433}" Id="26" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{A866631F-3D45-491C-8781-56F5F4D6C433}" Id="27" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="ADFDatasetDeploymentTask" Guid="{e4430df7-8f00-4163-8c79-08fd042081c3}">
+					<Start>
+						<Event Provider="{A866631F-3D45-491C-8781-56F5F4D6C433}" Id="28" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{A866631F-3D45-491C-8781-56F5F4D6C433}" Id="29" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="ADFDependencyDeploymentTask" Guid="{16bbf0eb-c98c-4546-bb96-f5856b211b85}">
+					<Start>
+						<Event Provider="{A866631F-3D45-491C-8781-56F5F4D6C433}" Id="30" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{A866631F-3D45-491C-8781-56F5F4D6C433}" Id="31" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="ADFPipelineDeploymentTask" Guid="{d7161b7f-a973-415e-bb43-345a1b7d0c5b}">
+					<Start>
+						<Event Provider="{A866631F-3D45-491C-8781-56F5F4D6C433}" Id="32" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{A866631F-3D45-491C-8781-56F5F4D6C433}" Id="33" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="DeleteADFDeploymentTask" Guid="{e18cfc2e-8659-4921-8678-ef5d7b719f01}">
+					<Start>
+						<Event Provider="{A866631F-3D45-491C-8781-56F5F4D6C433}" Id="34" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{A866631F-3D45-491C-8781-56F5F4D6C433}" Id="35" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="DeleteADFHubDeploymentTask" Guid="{d97d4047-0cdd-43e1-84e2-bbb79a314b12}">
+					<Start>
+						<Event Provider="{A866631F-3D45-491C-8781-56F5F4D6C433}" Id="36" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{A866631F-3D45-491C-8781-56F5F4D6C433}" Id="37" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="DeleteADFLinkedServicesDeploymentTask" Guid="{b2d80cae-1464-403e-b671-7b6bb7c65c14}">
+					<Start>
+						<Event Provider="{A866631F-3D45-491C-8781-56F5F4D6C433}" Id="38" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{A866631F-3D45-491C-8781-56F5F4D6C433}" Id="39" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="DeleteADFDatasetsDeploymentTask" Guid="{e9b166ec-3730-4417-81ff-edc8c50257f0}">
+					<Start>
+						<Event Provider="{A866631F-3D45-491C-8781-56F5F4D6C433}" Id="40" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{A866631F-3D45-491C-8781-56F5F4D6C433}" Id="41" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="DeleteADFDependenciesDeploymentTask" Guid="{fdf3d8a4-8a5c-4309-bd81-4a4197baadfb}">
+					<Start>
+						<Event Provider="{A866631F-3D45-491C-8781-56F5F4D6C433}" Id="42" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{A866631F-3D45-491C-8781-56F5F4D6C433}" Id="43" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="DeleteADFPipelinesDeploymentTask" Guid="{cbfcae0c-b09d-4205-bb92-5872a276d298}">
+					<Start>
+						<Event Provider="{A866631F-3D45-491C-8781-56F5F4D6C433}" Id="44" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{A866631F-3D45-491C-8781-56F5F4D6C433}" Id="45" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="DeleteADFLinkedServiceDeploymentTask" Guid="{0f29d3cd-3633-4fbf-b592-e99f8a1920f7}">
+					<Start>
+						<Event Provider="{A866631F-3D45-491C-8781-56F5F4D6C433}" Id="46" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{A866631F-3D45-491C-8781-56F5F4D6C433}" Id="47" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="DeleteADFDatasetDeploymentTask" Guid="{fd41ebee-1fd1-445c-a45c-22644143cb0b}">
+					<Start>
+						<Event Provider="{A866631F-3D45-491C-8781-56F5F4D6C433}" Id="48" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{A866631F-3D45-491C-8781-56F5F4D6C433}" Id="49" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="DeleteADFDependencyDeploymentTask" Guid="{6d6803c8-022f-421e-8de1-0cba8ec66706}">
+					<Start>
+						<Event Provider="{A866631F-3D45-491C-8781-56F5F4D6C433}" Id="50" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{A866631F-3D45-491C-8781-56F5F4D6C433}" Id="51" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="DeleteADFPipelineDeploymentTask" Guid="{afbf82ac-8b47-481b-b10c-b440738e0137}">
+					<Start>
+						<Event Provider="{A866631F-3D45-491C-8781-56F5F4D6C433}" Id="52" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{A866631F-3D45-491C-8781-56F5F4D6C433}" Id="53" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="CASDeleteAllBlobContainersTask" Guid="{ccee0760-a604-430d-b9d7-5168dd8edff6}">
+					<Start>
+						<Event Provider="{A866631F-3D45-491C-8781-56F5F4D6C433}" Id="54" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{A866631F-3D45-491C-8781-56F5F4D6C433}" Id="55" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="CASDeleteResourceGroupTask" Guid="{d7964765-29a3-4304-a71b-a992fd729252}">
+					<Start>
+						<Event Provider="{A866631F-3D45-491C-8781-56F5F4D6C433}" Id="56" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{A866631F-3D45-491C-8781-56F5F4D6C433}" Id="57" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="CASDeleteResourceGroupsMatchingTagTask" Guid="{7338cce8-907c-4423-8408-b25bce81516c}">
+					<Start>
+						<Event Provider="{A866631F-3D45-491C-8781-56F5F4D6C433}" Id="58" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{A866631F-3D45-491C-8781-56F5F4D6C433}" Id="59" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="ADFCreateEmailAlertTask" Guid="{a477bb64-01cc-4705-87a1-184c5d30b1c5}">
+					<Start>
+						<Event Provider="{A866631F-3D45-491C-8781-56F5F4D6C433}" Id="60" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{A866631F-3D45-491C-8781-56F5F4D6C433}" Id="61" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="BITabularModelGenerationTask" Guid="{a3d608c9-92ce-4eae-ad70-18893cf33763}">
+					<Start>
+						<Event Provider="{BCC32EC7-7F8D-4405-8286-AAC5504D60A5}" Id="0" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{BCC32EC7-7F8D-4405-8286-AAC5504D60A5}" Id="1" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="BITabularModelDeploymentTask" Guid="{d871d072-d272-436e-9df3-9ad2c567a33c}">
+					<Start>
+						<Event Provider="{BCC32EC7-7F8D-4405-8286-AAC5504D60A5}" Id="2" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{BCC32EC7-7F8D-4405-8286-AAC5504D60A5}" Id="3" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="EventJobTask" Guid="{55c77b55-f772-437b-a0fa-53dde87be090}">
+					<Start>
+						<Event Provider="{FDCAC153-6F8B-42D0-9AD6-3A9EB9F30B41}" Id="0" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{FDCAC153-6F8B-42D0-9AD6-3A9EB9F30B41}" Id="1" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="EventRuleCreationTask" Guid="{a3274466-e136-4fa7-9fed-0f850196c607}">
+					<Start>
+						<Event Provider="{FDCAC153-6F8B-42D0-9AD6-3A9EB9F30B41}" Id="2" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{FDCAC153-6F8B-42D0-9AD6-3A9EB9F30B41}" Id="3" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="EventRuleDeletionTask" Guid="{b4447281-2b1d-41e2-8e68-adc84d7c7b39}">
+					<Start>
+						<Event Provider="{FDCAC153-6F8B-42D0-9AD6-3A9EB9F30B41}" Id="4" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{FDCAC153-6F8B-42D0-9AD6-3A9EB9F30B41}" Id="5" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="EventProcessingTask" Guid="{8a55cd6e-20d0-4f00-99e7-21851fd2ab61}">
+					<Start>
+						<Event Provider="{FDCAC153-6F8B-42D0-9AD6-3A9EB9F30B41}" Id="6" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{FDCAC153-6F8B-42D0-9AD6-3A9EB9F30B41}" Id="7" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="EventActionRefreshTask" Guid="{ee7f6780-da1f-45f7-b4d2-5068d348fd94}">
+					<Start>
+						<Event Provider="{FDCAC153-6F8B-42D0-9AD6-3A9EB9F30B41}" Id="8" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{FDCAC153-6F8B-42D0-9AD6-3A9EB9F30B41}" Id="9" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="EventActionEmailTask" Guid="{2d088c2c-2c72-456f-bcd8-85609eec44f8}">
+					<Start>
+						<Event Provider="{FDCAC153-6F8B-42D0-9AD6-3A9EB9F30B41}" Id="10" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{FDCAC153-6F8B-42D0-9AD6-3A9EB9F30B41}" Id="11" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="EventActionAlertTask" Guid="{aa00f64f-72f1-4e93-ae22-19495761a000}">
+					<Start>
+						<Event Provider="{FDCAC153-6F8B-42D0-9AD6-3A9EB9F30B41}" Id="12" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{FDCAC153-6F8B-42D0-9AD6-3A9EB9F30B41}" Id="13" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="EventActionAlertEmailNotificationsTask" Guid="{4f551be7-7e27-4a01-a3dd-0cc7fcd67d2a}">
+					<Start>
+						<Event Provider="{FDCAC153-6F8B-42D0-9AD6-3A9EB9F30B41}" Id="14" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{FDCAC153-6F8B-42D0-9AD6-3A9EB9F30B41}" Id="15" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="EventActionAlertNotificationTask" Guid="{aef3ebe0-db1f-462d-a6af-9d795a81d65d}">
+					<Start>
+						<Event Provider="{FDCAC153-6F8B-42D0-9AD6-3A9EB9F30B41}" Id="16" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{FDCAC153-6F8B-42D0-9AD6-3A9EB9F30B41}" Id="17" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="RegisterEntity" Guid="{4bb18584-5191-45af-a1d0-b7485cbc6b14}">
+					<Start>
+						<Event Provider="{3226BF7C-87BB-42DB-BDF8-B4BB5C9593B5}" Id="0" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{3226BF7C-87BB-42DB-BDF8-B4BB5C9593B5}" Id="1" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="UnregisterEntity" Guid="{817db554-825a-4fde-bf93-4990e631c1f9}">
+					<Start>
+						<Event Provider="{3226BF7C-87BB-42DB-BDF8-B4BB5C9593B5}" Id="2" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{3226BF7C-87BB-42DB-BDF8-B4BB5C9593B5}" Id="3" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="ProcessingEntityTable" Guid="{7095c0e5-8182-4327-980a-19072e104093}">
+					<Start>
+						<Event Provider="{3226BF7C-87BB-42DB-BDF8-B4BB5C9593B5}" Id="4" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{3226BF7C-87BB-42DB-BDF8-B4BB5C9593B5}" Id="5" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="BusinessEventsAosStartupRegistration" Guid="{eefe8462-3fe9-49af-8491-0721f42e6894}">
+					<Start>
+						<Event Provider="{3226BF7C-87BB-42DB-BDF8-B4BB5C9593B5}" Id="6" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{3226BF7C-87BB-42DB-BDF8-B4BB5C9593B5}" Id="7" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="ProcessChangeNotification" Guid="{bfa1be31-f71e-4784-9c56-2c7f000d19c9}">
+					<Start>
+						<Event Provider="{949C54FB-299A-4848-B4D4-6A28992A53CA}" Id="0" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{949C54FB-299A-4848-B4D4-6A28992A53CA}" Id="1" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="ProcessTransactionCache" Guid="{8bb5e261-a62a-482b-a58d-4411ba35768f}">
+					<Start>
+						<Event Provider="{949C54FB-299A-4848-B4D4-6A28992A53CA}" Id="2" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{949C54FB-299A-4848-B4D4-6A28992A53CA}" Id="3" Version="0" />
+					</Stop>
+									</Region>
+							</RegionRoot>
+		</Regions>
+	</Instrumentation>
+</InstrumentationManifest>

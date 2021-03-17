@@ -1,0 +1,492 @@
+﻿
+
+
+
+<InstrumentationManifest>
+	<Instrumentation>
+		<Regions>
+			<RegionRoot Guid="{a556afd6-26dc-459c-80b3-a2442ac5365d}" Name="d:\dbs\Cx\l23t\.A\MsBuild.Corext.CT1Bd7U7E7_q1hBCssLvYw\v15.0\bin\MSBuild.exe">
+					<Region Name="ReportExecutionTask" Guid="{fd42dca7-83e8-4b29-8fde-b2cf7be634b6}">
+					<Start>
+						<Event Provider="{88ADE01D-8CB3-49DC-9C4B-290996873C99}" Id="0" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{88ADE01D-8CB3-49DC-9C4B-290996873C99}" Id="1" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="RenderReportTask" Guid="{487cd200-0a08-4f9f-86e2-0f7332e43f83}">
+					<Start>
+						<Event Provider="{88ADE01D-8CB3-49DC-9C4B-290996873C99}" Id="2" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{88ADE01D-8CB3-49DC-9C4B-290996873C99}" Id="3" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="RenderReportToByteArrayTask" Guid="{54e23d64-8414-4d28-b0f0-a7695b95d264}">
+					<Start>
+						<Event Provider="{88ADE01D-8CB3-49DC-9C4B-290996873C99}" Id="4" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{88ADE01D-8CB3-49DC-9C4B-290996873C99}" Id="5" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="RenderReportToArchiveTask" Guid="{dc5bef4a-1114-4d24-9d13-bee7b4ce7f0c}">
+					<Start>
+						<Event Provider="{88ADE01D-8CB3-49DC-9C4B-290996873C99}" Id="6" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{88ADE01D-8CB3-49DC-9C4B-290996873C99}" Id="7" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="RenderReportToEmailTask" Guid="{6373f53b-ea9e-433a-acc7-0d31d008189c}">
+					<Start>
+						<Event Provider="{88ADE01D-8CB3-49DC-9C4B-290996873C99}" Id="8" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{88ADE01D-8CB3-49DC-9C4B-290996873C99}" Id="9" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="RenderReportToFileTask" Guid="{7625fb6b-ca1a-4054-8250-0b65e7cc7d80}">
+					<Start>
+						<Event Provider="{88ADE01D-8CB3-49DC-9C4B-290996873C99}" Id="10" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{88ADE01D-8CB3-49DC-9C4B-290996873C99}" Id="11" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="RenderReportToDocumentRouterTask" Guid="{118e13d1-3607-46a9-8ec4-35f2c3b29e4d}">
+					<Start>
+						<Event Provider="{88ADE01D-8CB3-49DC-9C4B-290996873C99}" Id="12" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{88ADE01D-8CB3-49DC-9C4B-290996873C99}" Id="13" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="RenderReportToDocumentRouterPdfTask" Guid="{c31a8e85-8298-4f59-8836-92f9edfa0017}">
+					<Start>
+						<Event Provider="{88ADE01D-8CB3-49DC-9C4B-290996873C99}" Id="14" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{88ADE01D-8CB3-49DC-9C4B-290996873C99}" Id="15" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="ReportPreProcessingTask" Guid="{97ce3c81-9b47-4e56-aa23-e973f15820c9}">
+					<Start>
+						<Event Provider="{88ADE01D-8CB3-49DC-9C4B-290996873C99}" Id="16" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{88ADE01D-8CB3-49DC-9C4B-290996873C99}" Id="17" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="RenderReportToPrinterImageTask" Guid="{b1072157-8d40-4bf4-b06e-86b32f1d6798}">
+					<Start>
+						<Event Provider="{88ADE01D-8CB3-49DC-9C4B-290996873C99}" Id="18" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{88ADE01D-8CB3-49DC-9C4B-290996873C99}" Id="19" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="ReportingServicesPulseTask" Guid="{3ab3032d-05fb-4684-b7b4-34d5dcd37e83}">
+					<Start>
+						<Event Provider="{88ADE01D-8CB3-49DC-9C4B-290996873C99}" Id="20" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{88ADE01D-8CB3-49DC-9C4B-290996873C99}" Id="21" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="DocumentRoutingCleanupTask" Guid="{09033f2a-93b2-46ba-ac94-52185f377287}">
+					<Start>
+						<Event Provider="{88ADE01D-8CB3-49DC-9C4B-290996873C99}" Id="22" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{88ADE01D-8CB3-49DC-9C4B-290996873C99}" Id="23" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="DocumentRoutingV1CleanupTask" Guid="{7ac2c841-fb39-4590-953e-4349bb4722da}">
+					<Start>
+						<Event Provider="{88ADE01D-8CB3-49DC-9C4B-290996873C99}" Id="24" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{88ADE01D-8CB3-49DC-9C4B-290996873C99}" Id="25" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="ReportRenderTask" Guid="{90fc719b-ee7e-46c8-b642-8ffb99e1d86c}">
+					<Start>
+						<Event Provider="{88ADE01D-8CB3-49DC-9C4B-290996873C99}" Id="26" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{88ADE01D-8CB3-49DC-9C4B-290996873C99}" Id="27" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="QueryDataSetExecutionTask" Guid="{f524d131-03dd-46a2-b781-c828d2ae6e44}">
+					<Start>
+						<Event Provider="{88ADE01D-8CB3-49DC-9C4B-290996873C99}" Id="28" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{88ADE01D-8CB3-49DC-9C4B-290996873C99}" Id="29" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="RDPDataSetExecutionTask" Guid="{db7db14c-9280-4853-9ecd-fbdaeb01a704}">
+					<Start>
+						<Event Provider="{88ADE01D-8CB3-49DC-9C4B-290996873C99}" Id="30" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{88ADE01D-8CB3-49DC-9C4B-290996873C99}" Id="31" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="RegularRDPProcessingTask" Guid="{218a038f-ff69-4c26-917e-f03001c8a3a4}">
+					<Start>
+						<Event Provider="{88ADE01D-8CB3-49DC-9C4B-290996873C99}" Id="32" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{88ADE01D-8CB3-49DC-9C4B-290996873C99}" Id="33" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="DocumentRoutingPendingJobUpgradeTask" Guid="{93488fc8-fbf6-4a35-a671-6b037e7b4bfe}">
+					<Start>
+						<Event Provider="{88ADE01D-8CB3-49DC-9C4B-290996873C99}" Id="34" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{88ADE01D-8CB3-49DC-9C4B-290996873C99}" Id="35" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="DocumentRoutingPendingJobUnlockCacheRefreshTask" Guid="{29be6a35-cabd-42eb-98a0-1e1cf969d2b8}">
+					<Start>
+						<Event Provider="{88ADE01D-8CB3-49DC-9C4B-290996873C99}" Id="36" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{88ADE01D-8CB3-49DC-9C4B-290996873C99}" Id="37" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="ReportOnDemandDeployTask" Guid="{b082a3d1-2607-47cb-8337-03ec889fe68a}">
+					<Start>
+						<Event Provider="{88ADE01D-8CB3-49DC-9C4B-290996873C99}" Id="38" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{88ADE01D-8CB3-49DC-9C4B-290996873C99}" Id="39" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="ReportOnDemandDeleteTask" Guid="{0a8b8773-878e-41d1-af08-f410b1677018}">
+					<Start>
+						<Event Provider="{88ADE01D-8CB3-49DC-9C4B-290996873C99}" Id="40" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{88ADE01D-8CB3-49DC-9C4B-290996873C99}" Id="41" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="ReportingServiceGetTokenTask" Guid="{f68685db-e90b-4d24-a3ab-69768ac1429b}">
+					<Start>
+						<Event Provider="{88ADE01D-8CB3-49DC-9C4B-290996873C99}" Id="42" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{88ADE01D-8CB3-49DC-9C4B-290996873C99}" Id="43" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="ReportsSecurityGetSecretTask" Guid="{b9fc9e9c-e1bc-450d-9b02-0b8fe134cb8f}">
+					<Start>
+						<Event Provider="{88ADE01D-8CB3-49DC-9C4B-290996873C99}" Id="44" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{88ADE01D-8CB3-49DC-9C4B-290996873C99}" Id="45" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="ReportsSecurityGetTokenTask" Guid="{263b630a-32d4-456c-9538-880a45d47005}">
+					<Start>
+						<Event Provider="{88ADE01D-8CB3-49DC-9C4B-290996873C99}" Id="46" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{88ADE01D-8CB3-49DC-9C4B-290996873C99}" Id="47" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="ReportsSecurityGetKeyVaultTokenTask" Guid="{5e85e654-a86e-4fb7-916d-9a0689708c5b}">
+					<Start>
+						<Event Provider="{88ADE01D-8CB3-49DC-9C4B-290996873C99}" Id="48" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{88ADE01D-8CB3-49DC-9C4B-290996873C99}" Id="49" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="ReportsSecurityGetKeyVaultSecretTask" Guid="{511106f5-7e2e-4734-8982-8c942a141362}">
+					<Start>
+						<Event Provider="{88ADE01D-8CB3-49DC-9C4B-290996873C99}" Id="50" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{88ADE01D-8CB3-49DC-9C4B-290996873C99}" Id="51" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="ReportsSecurityTokenValidationTask" Guid="{dcb4b507-400d-4457-a2ba-69bd287d388a}">
+					<Start>
+						<Event Provider="{88ADE01D-8CB3-49DC-9C4B-290996873C99}" Id="52" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{88ADE01D-8CB3-49DC-9C4B-290996873C99}" Id="53" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="ReportsSecurityEnvironmentValidationTask" Guid="{909be9b4-f824-47d9-beb0-e8d0671b7818}">
+					<Start>
+						<Event Provider="{88ADE01D-8CB3-49DC-9C4B-290996873C99}" Id="54" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{88ADE01D-8CB3-49DC-9C4B-290996873C99}" Id="55" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="ReportCleanUpBatchJobExecutionTask" Guid="{711c17f9-dca8-47b8-89e3-d19a2f2e3997}">
+					<Start>
+						<Event Provider="{88ADE01D-8CB3-49DC-9C4B-290996873C99}" Id="56" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{88ADE01D-8CB3-49DC-9C4B-290996873C99}" Id="57" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="ReportCleanUpBatchJobDeletionTask" Guid="{b72eda1a-bca7-42cc-8685-8df9bfc3854b}">
+					<Start>
+						<Event Provider="{88ADE01D-8CB3-49DC-9C4B-290996873C99}" Id="58" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{88ADE01D-8CB3-49DC-9C4B-290996873C99}" Id="59" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="DocumentRoutingGetDocumentUriTask" Guid="{7964e10b-59da-47a7-8dd3-da59d28f866f}">
+					<Start>
+						<Event Provider="{88ADE01D-8CB3-49DC-9C4B-290996873C99}" Id="60" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{88ADE01D-8CB3-49DC-9C4B-290996873C99}" Id="61" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="DocumentRoutingGetDocumentUriByClientTask" Guid="{7b5fd0af-23f3-4c40-9562-11f994fda468}">
+					<Start>
+						<Event Provider="{88ADE01D-8CB3-49DC-9C4B-290996873C99}" Id="62" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{88ADE01D-8CB3-49DC-9C4B-290996873C99}" Id="63" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="DocumentRoutingUpdateJobStatusTask" Guid="{046a704d-6809-458f-a746-8ce07163272c}">
+					<Start>
+						<Event Provider="{88ADE01D-8CB3-49DC-9C4B-290996873C99}" Id="64" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{88ADE01D-8CB3-49DC-9C4B-290996873C99}" Id="65" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="DocumentRoutingSyncPrintersTask" Guid="{1cf035fb-7305-4d3f-80d3-2c8bc4bdf017}">
+					<Start>
+						<Event Provider="{88ADE01D-8CB3-49DC-9C4B-290996873C99}" Id="66" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{88ADE01D-8CB3-49DC-9C4B-290996873C99}" Id="67" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="RenderReportToFileDetailTask" Guid="{9f735303-d3d7-4d77-94d3-9ab40ed855c9}">
+					<Start>
+						<Event Provider="{88ADE01D-8CB3-49DC-9C4B-290996873C99}" Id="68" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{88ADE01D-8CB3-49DC-9C4B-290996873C99}" Id="69" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="RenderReportToArchiveDetailTask" Guid="{67695ff3-533a-4b3a-a022-30b74143ba49}">
+					<Start>
+						<Event Provider="{88ADE01D-8CB3-49DC-9C4B-290996873C99}" Id="70" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{88ADE01D-8CB3-49DC-9C4B-290996873C99}" Id="71" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="RenderReportToEmailDetailTask" Guid="{bd2c3b8a-1567-4f06-8531-242258bab729}">
+					<Start>
+						<Event Provider="{88ADE01D-8CB3-49DC-9C4B-290996873C99}" Id="72" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{88ADE01D-8CB3-49DC-9C4B-290996873C99}" Id="73" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="RenderReportToDocumentRouterDetailTask" Guid="{80093827-5f33-4486-8931-9f07e5340870}">
+					<Start>
+						<Event Provider="{88ADE01D-8CB3-49DC-9C4B-290996873C99}" Id="74" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{88ADE01D-8CB3-49DC-9C4B-290996873C99}" Id="75" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="RenderReportToDocumentRouterPdfDetailTask" Guid="{3ebbb617-60ab-430f-b1c8-ca5bb91f98d0}">
+					<Start>
+						<Event Provider="{88ADE01D-8CB3-49DC-9C4B-290996873C99}" Id="76" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{88ADE01D-8CB3-49DC-9C4B-290996873C99}" Id="77" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="RenderReportToScreenDetailTask" Guid="{4d97bba9-6d1d-43e4-bc83-5db6d768d633}">
+					<Start>
+						<Event Provider="{88ADE01D-8CB3-49DC-9C4B-290996873C99}" Id="78" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{88ADE01D-8CB3-49DC-9C4B-290996873C99}" Id="79" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="SubReportsDeletedByViewerFormTask" Guid="{02ae880a-6f89-4cad-a59e-8cf772918d66}">
+					<Start>
+						<Event Provider="{88ADE01D-8CB3-49DC-9C4B-290996873C99}" Id="80" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{88ADE01D-8CB3-49DC-9C4B-290996873C99}" Id="81" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="ReportDrillThroughLinkGenerationTask" Guid="{8df5e75d-0f36-4f0a-91ad-879164c82b8c}">
+					<Start>
+						<Event Provider="{88ADE01D-8CB3-49DC-9C4B-290996873C99}" Id="82" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{88ADE01D-8CB3-49DC-9C4B-290996873C99}" Id="83" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="ReportDataExtensionExecutionTask" Guid="{4ccc85b1-35da-4088-84c2-d7c347042a60}">
+					<Start>
+						<Event Provider="{68C22D8C-C670-406A-B48B-2E7F0551F904}" Id="0" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{68C22D8C-C670-406A-B48B-2E7F0551F904}" Id="1" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="RDCEEngineExecutionTask" Guid="{7f3c24a0-2420-4e2c-ac0c-418570498e3c}">
+					<Start>
+						<Event Provider="{68C22D8C-C670-406A-B48B-2E7F0551F904}" Id="2" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{68C22D8C-C670-406A-B48B-2E7F0551F904}" Id="3" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="SubReportRdceTask" Guid="{5436a87d-7dc1-4898-82a0-cdb256122966}">
+					<Start>
+						<Event Provider="{68C22D8C-C670-406A-B48B-2E7F0551F904}" Id="4" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{68C22D8C-C670-406A-B48B-2E7F0551F904}" Id="5" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="SubReportDeleteDeployedTask" Guid="{e4983735-1309-47c8-aa49-f01fbdcd70cb}">
+					<Start>
+						<Event Provider="{68C22D8C-C670-406A-B48B-2E7F0551F904}" Id="6" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{68C22D8C-C670-406A-B48B-2E7F0551F904}" Id="7" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="AutoFixRdceTask" Guid="{3de1a2c4-93eb-4744-b26f-ab1272f972b3}">
+					<Start>
+						<Event Provider="{68C22D8C-C670-406A-B48B-2E7F0551F904}" Id="8" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{68C22D8C-C670-406A-B48B-2E7F0551F904}" Id="9" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="UploadToBlobTask" Guid="{47e95864-1224-42fa-9091-0ae936d2d6aa}">
+					<Start>
+						<Event Provider="{6B14A44F-FE68-46A7-82C0-1C19B25E6343}" Id="0" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{6B14A44F-FE68-46A7-82C0-1C19B25E6343}" Id="1" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="DownloadAndSendToPrinterTask" Guid="{a2fb0ec8-9740-4db7-9345-43e6bf09a70c}">
+					<Start>
+						<Event Provider="{6B14A44F-FE68-46A7-82C0-1C19B25E6343}" Id="2" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{6B14A44F-FE68-46A7-82C0-1C19B25E6343}" Id="3" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="PrintAsFileTask" Guid="{2bd81328-9d08-438a-b2b4-22183323e246}">
+					<Start>
+						<Event Provider="{6B14A44F-FE68-46A7-82C0-1C19B25E6343}" Id="4" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{6B14A44F-FE68-46A7-82C0-1C19B25E6343}" Id="5" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="DownloadStatusFromBlobTask" Guid="{66595ac8-0350-4f00-ba81-ad4c81a0f5f6}">
+					<Start>
+						<Event Provider="{6B14A44F-FE68-46A7-82C0-1C19B25E6343}" Id="6" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{6B14A44F-FE68-46A7-82C0-1C19B25E6343}" Id="7" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="DeleteBlobTask" Guid="{c1511585-55f7-4f8d-922b-946a392009c4}">
+					<Start>
+						<Event Provider="{6B14A44F-FE68-46A7-82C0-1C19B25E6343}" Id="8" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{6B14A44F-FE68-46A7-82C0-1C19B25E6343}" Id="9" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="LoadReportDefinitionTask" Guid="{c125cdd3-d5c6-4ded-9b80-377b45ac9b0f}">
+					<Start>
+						<Event Provider="{6B14A44F-FE68-46A7-82C0-1C19B25E6343}" Id="10" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{6B14A44F-FE68-46A7-82C0-1C19B25E6343}" Id="11" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="ClusterRdceExecutionTask" Guid="{989e22d7-7af2-4b04-931b-ae795e5d4ce2}">
+					<Start>
+						<Event Provider="{6B14A44F-FE68-46A7-82C0-1C19B25E6343}" Id="12" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{6B14A44F-FE68-46A7-82C0-1C19B25E6343}" Id="13" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="ToReportingClusterAcquireTokenTask" Guid="{9622881e-bfb9-4701-8c49-f0e6f092c304}">
+					<Start>
+						<Event Provider="{6B14A44F-FE68-46A7-82C0-1C19B25E6343}" Id="14" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{6B14A44F-FE68-46A7-82C0-1C19B25E6343}" Id="15" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="RdpFieldAliasMapperTask" Guid="{72b1add5-e79f-4d85-a055-5c7fc5039091}">
+					<Start>
+						<Event Provider="{6B14A44F-FE68-46A7-82C0-1C19B25E6343}" Id="16" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{6B14A44F-FE68-46A7-82C0-1C19B25E6343}" Id="17" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="ReportingClusterGetRdpDatasetAnalyzers" Guid="{a5614492-7142-47e3-98f8-ef86926476d6}">
+					<Start>
+						<Event Provider="{6B14A44F-FE68-46A7-82C0-1C19B25E6343}" Id="18" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{6B14A44F-FE68-46A7-82C0-1C19B25E6343}" Id="19" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="GeneratePageSettingsTask" Guid="{fc21732f-1db3-4abf-b906-ade0e6eab994}">
+					<Start>
+						<Event Provider="{6B14A44F-FE68-46A7-82C0-1C19B25E6343}" Id="20" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{6B14A44F-FE68-46A7-82C0-1C19B25E6343}" Id="21" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="ReportingClusterTokenRefreshTask" Guid="{c6792dcc-35a0-43ec-a62d-205d93eea30f}">
+					<Start>
+						<Event Provider="{C247B189-C198-4C09-8556-3D5221291C67}" Id="0" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{C247B189-C198-4C09-8556-3D5221291C67}" Id="1" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="ReportPDFViewerExportTask" Guid="{a8bf623d-9d98-4b02-bd28-a3ca031ec9e6}">
+					<Start>
+						<Event Provider="{C247B189-C198-4C09-8556-3D5221291C67}" Id="2" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{C247B189-C198-4C09-8556-3D5221291C67}" Id="3" Version="0" />
+					</Stop>
+									</Region>
+							</RegionRoot>
+		</Regions>
+	</Instrumentation>
+</InstrumentationManifest>

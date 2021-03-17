@@ -1,0 +1,146 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Microsoft.Dynamics.Commerce.PosPlayback.RecordingsRunner</name>
+    </assembly>
+    <members>
+        <member name="T:Microsoft.Dynamics.Commerce.PosPlayback.RecordingsRunner.LoggerResource">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Dynamics.Commerce.PosPlayback.RecordingsRunner.LoggerResource.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Dynamics.Commerce.PosPlayback.RecordingsRunner.LoggerResource.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Dynamics.Commerce.PosPlayback.RecordingsRunner.LoggerResource.FileNotFoundException">
+            <summary>
+              Looks up a localized string similar to Exception: File {0} was not found..
+            </summary>
+        </member>
+        <member name="P:Microsoft.Dynamics.Commerce.PosPlayback.RecordingsRunner.LoggerResource.InitiateTestCase">
+            <summary>
+              Looks up a localized string similar to Test Case with ID {0} was initiated..
+            </summary>
+        </member>
+        <member name="P:Microsoft.Dynamics.Commerce.PosPlayback.RecordingsRunner.LoggerResource.ParametersUsageInfo">
+             <summary>
+               Looks up a localized string similar to Usage:
+            Microsoft.Dynamics.Commerce.PosPlayback.RecordingsRunner.exe testcaseid=&quot;value&quot; input=&quot;value&quot;  [parenttestfolder=&quot;value&quot;].
+             </summary>
+        </member>
+        <member name="P:Microsoft.Dynamics.Commerce.PosPlayback.RecordingsRunner.LoggerResource.SuccessfulTestCase">
+            <summary>
+              Looks up a localized string similar to Test Case finished successfully..
+            </summary>
+        </member>
+        <member name="P:Microsoft.Dynamics.Commerce.PosPlayback.RecordingsRunner.LoggerResource.TimeElapsedDuringParsing">
+            <summary>
+              Looks up a localized string similar to Time elapsed during parsing of Test Files: {0} milliseconds..
+            </summary>
+        </member>
+        <member name="T:Microsoft.Dynamics.Commerce.PosPlayback.RecordingsRunner.Program">
+            <summary>
+            ConsoleApp Program class.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Dynamics.Commerce.PosPlayback.RecordingsRunner.Program.Main(System.String[])">
+            <summary>
+            Main function to be run when the executable is executed. It reads and reproduces a single test case based on arguments provided.
+            </summary>
+            <param name="args">Arguments provided in order to execute a test case.</param>
+            <returns>0 in case the test case was a success and an error code otherwise.</returns>
+        </member>
+        <member name="M:Microsoft.Dynamics.Commerce.PosPlayback.RecordingsRunner.Program.Start(System.String[],Microsoft.Dynamics.Commerce.PosPlayback.RecordingsRunner.TestPlaybackManagerFactory,Microsoft.Dynamics.Commerce.PosRecorder.RecordingLogger.ILogger)">
+            <summary>
+            Main function to be run when the executable is executed. It reads and reproduces a single test case based on arguments provided.
+            </summary>
+            <param name="args">Arguments provided in order to execute a test case.</param>
+            <param name="playbackFactory">The playback factory argument to be provided.</param>
+            <param name="logger">The logger instance.</param>
+            <returns>0 in case the test case was a success and an error code otherwise.</returns>
+            <exception cref="T:System.ArgumentException">Thrown when arguments are not following the format expected or their corresponding files do not exist.</exception>
+            <exception cref="T:System.IO.InvalidDataException">Thrown when data in input files is not following the format expected.</exception>
+            <exception cref="T:System.InvalidOperationException">Thrown when some error occurs when trying to reproduce a step in the recording file.</exception>
+        </member>
+        <member name="M:Microsoft.Dynamics.Commerce.PosPlayback.RecordingsRunner.Program.FinishProgramExecution(System.Int32,Microsoft.Dynamics.Commerce.PosRecorder.RecordingLogger.ILogger)">
+            <summary>
+            Finishes the program execution by disposing the Logger instance and returning an error code (0 indicates success).
+            </summary>
+            <param name="errorCode">The error code to be returned (0 indicates success).</param>
+            <param name="logger">The logger instance.</param>
+            <returns>The error code (0 indicates success).</returns>
+        </member>
+        <member name="T:Microsoft.Dynamics.Commerce.PosPlayback.RecordingsRunner.TestPlaybackManager">
+            <summary>
+            Test Playback Manager class.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Dynamics.Commerce.PosPlayback.RecordingsRunner.TestPlaybackManager.#ctor(Microsoft.Dynamics.Commerce.Client.PosPlayback.DataHandler.FileParserFactory,System.String,System.String,System.String,System.String,System.String,System.String,System.Int32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Dynamics.Commerce.PosPlayback.RecordingsRunner.TestPlaybackManager"/> class.
+            </summary>
+            <param name="fileParserFactory">The file parser factory.</param>
+            <param name="recordingFilePath">The recording file path that needs to be reproduced.</param>
+            <param name="variablesXmlFilePath">The variables xml file path.</param>
+            <param name="variablesExcelFilePath">The variables excel file path.</param>
+            <param name="globalVariablesInFilePath">The global variables in file path.</param>
+            <param name="globalVariablesOutFilePath">The global variables out file path.</param>
+            <param name="timeXmlFilePath">The path to the time xml file.</param>
+            <param name="testCaseId">The test case id.</param>
+        </member>
+        <member name="M:Microsoft.Dynamics.Commerce.PosPlayback.RecordingsRunner.TestPlaybackManager.#ctor(Microsoft.Dynamics.Commerce.Client.PosPlayback.DataHandler.FileParserFactory,System.String,System.Int32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Dynamics.Commerce.PosPlayback.RecordingsRunner.TestPlaybackManager"/> class.
+            </summary>
+            <param name="fileParserFactory">The file parser factory.</param>
+            <param name="recordingFilePath">The recording file path that needs to be reproduced.</param>
+            <param name="testCaseId">The test case id.</param>
+        </member>
+        <member name="M:Microsoft.Dynamics.Commerce.PosPlayback.RecordingsRunner.TestPlaybackManager.ParseFiles">
+            <summary>
+            Processes and plays back a recording.
+            </summary>
+            <exception cref="T:System.IO.InvalidDataException">Thrown when data in input files are not following the format expected.</exception>
+        </member>
+        <member name="M:Microsoft.Dynamics.Commerce.PosPlayback.RecordingsRunner.TestPlaybackManager.PlaybackEvents">
+            <summary>
+            Processes and plays back the list of events parsed.
+            </summary>
+            <exception cref="T:System.InvalidOperationException">Thrown when some exception occurs when trying to reproduce a step.</exception>
+        </member>
+        <member name="T:Microsoft.Dynamics.Commerce.PosPlayback.RecordingsRunner.TestPlaybackManagerFactory">
+            <summary>
+            Test Playback Manager Factory class.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Dynamics.Commerce.PosPlayback.RecordingsRunner.TestPlaybackManagerFactory.CreateWithVariablesSupport(System.String,System.String,System.String,System.String,System.String,System.String,System.Int32)">
+            <summary>
+            Creates a new instance of the <see cref="T:Microsoft.Dynamics.Commerce.PosPlayback.RecordingsRunner.TestPlaybackManager"/> class.
+            </summary>
+            <param name="recordingFilePath">The recording file path that needs to be reproduced.</param>
+            <param name="variablesXmlFilePath">The variables xml file path.</param>
+            <param name="variablesExcelFilePath">The variables excel file path.</param>
+            <param name="globalVariablesInFilePath">The global variables in file path.</param>
+            <param name="globalVariablesOutFilePath">The global variables out file path.</param>
+            <param name="timeXmlFilePath">The path to the time xml file.</param>
+            <param name="testCaseId">The test case id.</param>
+            <returns>An instance of TestPlaybackManager.</returns>
+        </member>
+        <member name="M:Microsoft.Dynamics.Commerce.PosPlayback.RecordingsRunner.TestPlaybackManagerFactory.CreateWithoutVariablesSupport(System.String,System.Int32)">
+            <summary>
+            Creates a new instance of the <see cref="T:Microsoft.Dynamics.Commerce.PosPlayback.RecordingsRunner.TestPlaybackManager"/> class.
+            </summary>
+            <param name="recordingFilePath">The recording file path that needs to be reproduced.</param>
+            <param name="testCaseId">The test case id.</param>
+            <returns>An instance of TestPlaybackManager.</returns>
+        </member>
+    </members>
+</doc>

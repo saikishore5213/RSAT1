@@ -1,0 +1,55 @@
+<DeploymentTopology catalogName="AX" productName="AX7">
+  <DeploymentComponents>
+    <DeploymentComponent identifier="PerfSDK" topologyType="DevTest">
+      <ScriptReference identifier="UnifiedSetup">
+        <Parameters>
+          <Parameter name="ServiceName">
+            <Value>
+              <Value>PerfSDK</Value>
+            </Value>
+          </Parameter>
+          <Parameter name="BuildLocation">
+            <Value>
+              <Value>Services\PerfSDK\</Value>
+            </Value>
+          </Parameter>
+          <Parameter name="BuildId" type="Customization">
+            <Value>
+              <Value>ProductVersion</Value>
+            </Value>
+          </Parameter>
+          <Parameter name="HostName" type="Customization">
+            <Value>
+              <Value>AosService.Https</Value>
+            </Value>
+          </Parameter>
+          <Parameter name="SoapHostName" type="Customization">
+            <Value>
+              <Value>AosService.Soap</Value>
+            </Value>
+          </Parameter>
+          <Parameter name="PerfSDKLocalDirectory">
+            <Value>
+              <Value>C:\PerfSDK</Value>
+            </Value>
+          </Parameter>
+          <Parameter name="UserName" type="Customization">
+            <Value>
+              <Value>User Alias</Value>
+            </Value>
+          </Parameter>
+          <Parameter name="TestCertificateThumbprint" type="XPath" continueOnSourceMissing="true">
+              <Value>
+                <Value>[TopologyInstance/Certificates/Certificate[@identifier="PerfSdkLocalHostSslCertificate"]/@thumbprint]</Value>
+              </Value>
+          </Parameter>
+          <Parameter name="DevUserGroup" type="Customization" continueOnSourceMissing="true">
+            <Value>
+              <Value>DevUserGroup</Value>
+            </Value>
+          </Parameter>
+        </Parameters>
+      </ScriptReference>
+    </DeploymentComponent>
+  </DeploymentComponents>
+</DeploymentTopology>

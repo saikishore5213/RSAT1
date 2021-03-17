@@ -1,0 +1,205 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Microsoft.Dynamics.Commerce.PosVariableFileGenerator</name>
+    </assembly>
+    <members>
+        <member name="T:Microsoft.Dynamics.Commerce.PosVariableFileGenerator.LoggerResource">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Dynamics.Commerce.PosVariableFileGenerator.LoggerResource.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Dynamics.Commerce.PosVariableFileGenerator.LoggerResource.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Dynamics.Commerce.PosVariableFileGenerator.LoggerResource.CopyParentVariableFileMessage">
+            <summary>
+              Looks up a localized string similar to Copy variable files from parent test folder at: &apos;{0}&apos;..
+            </summary>
+        </member>
+        <member name="P:Microsoft.Dynamics.Commerce.PosVariableFileGenerator.LoggerResource.FileCopiedMessage">
+            <summary>
+              Looks up a localized string similar to The file &apos;{0}&apos; was successfully copied to &apos;{1}&apos;..
+            </summary>
+        </member>
+        <member name="P:Microsoft.Dynamics.Commerce.PosVariableFileGenerator.LoggerResource.FileCreatedMessage">
+            <summary>
+              Looks up a localized string similar to The file &apos;{0}&apos; was successfully created..
+            </summary>
+        </member>
+        <member name="P:Microsoft.Dynamics.Commerce.PosVariableFileGenerator.LoggerResource.ParametersUsageInfo">
+             <summary>
+               Looks up a localized string similar to Usage:
+            Microsoft.Dynamics.Commerce.PosVariableFileGenerator.exe testcaseid=&quot;&lt;value&gt;&quot; input=&quot;&lt;value&gt;&quot; output=&quot;&lt;value&gt;&quot; [action=&quot;&lt;value&gt;&quot;] [parenttestfolder=&quot;&lt;value&gt;&quot;].
+             </summary>
+        </member>
+        <member name="P:Microsoft.Dynamics.Commerce.PosVariableFileGenerator.LoggerResource.StartTestFileGenerationMessage">
+            <summary>
+              Looks up a localized string similar to Starting the test file generation with recording: &apos;{0}&apos;..
+            </summary>
+        </member>
+        <member name="T:Microsoft.Dynamics.Commerce.PosVariableFileGenerator.Program">
+            <summary>
+            The console application to create recording variable and excel files.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Dynamics.Commerce.PosVariableFileGenerator.Program.Main(System.String[])">
+            <summary>
+            Main function to be run when this console app is called.
+            </summary>
+            <param name="args">Arguments provided to run the console app.</param>
+            <returns>Return 0 as success and an error code different than 0 if failed.</returns>
+        </member>
+        <member name="M:Microsoft.Dynamics.Commerce.PosVariableFileGenerator.Program.GenerateTestFiles(Microsoft.Dynamics.Commerce.Client.PosRecorder.DataHandler.CommandArgs)">
+            <summary>
+            Generate variable file for normal test case.
+            </summary>
+            <param name="args">The CommandArgs to generate test file.</param>
+            <returns>Return 0 as success and an error code different than 0 if failed.</returns>
+        </member>
+        <member name="M:Microsoft.Dynamics.Commerce.PosVariableFileGenerator.Program.CreateDerivedTestCase(Microsoft.Dynamics.Commerce.Client.PosRecorder.DataHandler.CommandArgs)">
+            <summary>
+            This method will copy parent test case variable file with updated values to derived test case.
+            </summary>
+            <param name="args">The CommandArgs to create derived test case.</param>
+            <returns>Return 0 as success and an error code different than 0 if failed.</returns>
+        </member>
+        <member name="M:Microsoft.Dynamics.Commerce.PosVariableFileGenerator.Program.LogErrorAndFinishExecution(System.Exception)">
+            <summary>
+            Log error and finish execution (0 indicates success).
+            </summary>
+            <param name="ex">The exception to log.</param>
+            <returns>The error code (0 indicates success).</returns>
+        </member>
+        <member name="M:Microsoft.Dynamics.Commerce.PosVariableFileGenerator.Program.FinishProgramExecution(System.Int32)">
+            <summary>
+            Finishes the program execution by disposing the Logger instance and returning an error code (0 indicates success).
+            </summary>
+            <param name="errorCode">The error code to be returned (0 indicates success).</param>
+            <returns>The error code (0 indicates success).</returns>
+        </member>
+        <member name="T:Microsoft.Dynamics.Commerce.PosVariableFileGenerator.Sanitizer">
+            <summary>
+            The class for sanitizer.
+            Refer to https://msdyneng.visualstudio.com/AX%20Application/_git/BizProcessTools
+            At BizProcessTools\Business Process Test Tool\TaskRecordingXppCodeGenerator\Sanitizer.cs
+            </summary>
+        </member>
+        <member name="M:Microsoft.Dynamics.Commerce.PosVariableFileGenerator.Sanitizer.SanitizeRecording(Microsoft.Dynamics.Client.ServerForm.TaskRecording.Recording)">
+            <summary>
+            Sanitize the recording file.
+            </summary>
+            <param name="recording">The recording file.</param>
+        </member>
+        <member name="M:Microsoft.Dynamics.Commerce.PosVariableFileGenerator.Sanitizer.SanitizeNodes(Microsoft.Dynamics.Client.ServerForm.TaskRecording.Node)">
+            <summary>
+            Sanitize the recording node.
+            </summary>
+            <param name="root">The root note from the recording.</param>
+        </member>
+        <member name="M:Microsoft.Dynamics.Commerce.PosVariableFileGenerator.Sanitizer.SanitizeName(System.String,System.Boolean,System.Int32)">
+            <summary>
+            Sanitize the name by trim spaces, remove unicode, remove number pre-fix and restrict the size.
+            </summary>
+            <param name="name">The name in string to sanitize.</param>
+            <param name="restrictLength">Boolean to indicate if we need restrict the length of the name.</param>
+            <param name="restrictedLength">Teh restricted length.</param>
+            <returns>The updated string.</returns>
+        </member>
+        <member name="M:Microsoft.Dynamics.Commerce.PosVariableFileGenerator.Sanitizer.SanitizeStringValue(System.String)">
+            <summary>
+            Sanitize a string value.
+            </summary>
+            <param name="value">The string value to sanitize.</param>
+            <returns>The updated string.</returns>
+        </member>
+        <member name="M:Microsoft.Dynamics.Commerce.PosVariableFileGenerator.Sanitizer.SkipLeadingNonLetterOrDigitCharacters(System.String)">
+            <summary>
+            Skip all leading non-letters and non-digits in input string.
+            </summary>
+            <param name="input">Input string.</param>
+            <returns>String without leading non-letters and non-digits or empty string.</returns>
+        </member>
+        <member name="T:Microsoft.Dynamics.Commerce.PosVariableFileGenerator.TestFileGenerator">
+            <summary>
+            Class for test file generator.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Dynamics.Commerce.PosVariableFileGenerator.TestFileGenerator.RecordingVariables">
+            <summary>
+            Gets or sets the list of recording variables.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Dynamics.Commerce.PosVariableFileGenerator.TestFileGenerator.RecordingName">
+            <summary>
+            Gets or sets the recording name.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Dynamics.Commerce.PosVariableFileGenerator.TestFileGenerator.GenerateDynamicVariables(System.String,System.Int32)">
+            <summary>
+            Generate variables from recording.
+            </summary>
+            <param name="inputXML">The input xml file.</param>
+            <param name="testCaseId">The test case Id.</param>
+        </member>
+        <member name="M:Microsoft.Dynamics.Commerce.PosVariableFileGenerator.TestFileGenerator.PrintVariablesToXmlFile(System.String,System.String)">
+            <summary>
+            Print recording variables to an xml file.
+            </summary>
+            <param name="outputPath">The output path of the xml file.</param>
+            <param name="testCaseId">The test case id.</param>
+        </member>
+        <member name="M:Microsoft.Dynamics.Commerce.PosVariableFileGenerator.TestFileGenerator.PrintVariablesToExcelFile(System.String)">
+            <summary>
+            Print recording variables to an excel file.
+            </summary>
+            <param name="outputPath">The output path for the excel file.</param>
+        </member>
+        <member name="M:Microsoft.Dynamics.Commerce.PosVariableFileGenerator.TestFileGenerator.CopyVariableFiles(System.String,System.String)">
+            <summary>
+            Copy variable files from parent test case to derived test case
+            </summary>
+            <param name="fromPath">The copy from path.</param>
+            <param name="toPath">The copy to path.</param>
+        </member>
+        <member name="M:Microsoft.Dynamics.Commerce.PosVariableFileGenerator.TestFileGenerator.GenerateVariableInternal(System.String,System.Int32)">
+            <summary>
+            Generates recording variables from the recording xml file.
+            </summary>
+            <param name="inputXML">The input of recording xml file.</param>
+            <param name="testCaseId">The test case id.</param>
+        </member>
+        <member name="M:Microsoft.Dynamics.Commerce.PosVariableFileGenerator.TestFileGenerator.AddRecordingVariable(System.String,System.String,System.String,System.String)">
+            <summary>
+            Add recording variable to the list.
+            </summary>
+            <param name="actionDescription">User action description.</param>
+            <param name="viewName">User action view name.</param>
+            <param name="commandName">User action command name.</param>
+            <param name="argValue">User action aurgument value.</param>
+        </member>
+        <member name="M:Microsoft.Dynamics.Commerce.PosVariableFileGenerator.TestFileGenerator.AddSummaryInfo(System.Int32,System.String)">
+            <summary>
+            Add summary info to recording variable.
+            </summary>
+            <param name="testCaseId">The test case id.</param>
+            <param name="appInfo">The application info.</param>
+        </member>
+        <member name="M:Microsoft.Dynamics.Commerce.PosVariableFileGenerator.TestFileGenerator.GetVariableFullFileName(System.String,System.String)">
+            <summary>
+            Gets the full file path and name of the variable xml or excel.
+            </summary>
+            <param name="outputPath">The root out put path for variable files.</param>
+            <param name="fileExtension">The extension of a file.</param>
+            <returns>The full file path and name for a variable file.</returns>
+        </member>
+    </members>
+</doc>

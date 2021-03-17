@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Project Target="Dispatcher">
+    <Xml Types="Edts, Enums, ActionMenuItems, DisplayMenuItems, OutputMenuItems, ConfigurationKeys" Model="{ModelName}" TargetScope="MS.Dynamics.TestTools.DispatcherProxyLibrary.ApplicationEnums">
+        {Model store folder}
+    </Xml>
+    <Xml Types="Forms" Model="{ModelName}" TargetScope="MS.Dynamics.TestTools.DispatcherProxyLibrary.ApplicationForms">
+	{Model store folder}
+    </Xml>
+ </Project>

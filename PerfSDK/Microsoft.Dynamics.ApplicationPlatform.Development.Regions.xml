@@ -1,0 +1,644 @@
+﻿
+
+
+
+<InstrumentationManifest>
+	<Instrumentation>
+		<Regions>
+			<RegionRoot Guid="{e776377d-84c0-4691-b5ef-047411850042}" Name="d:\dbs\Cx\l23t\.A\MsBuild.Corext.CT1Bd7U7E7_q1hBCssLvYw\v15.0\bin\MSBuild.exe">
+					<Region Name="ApplicationTrackerScope" Guid="{b85105a9-c40e-419a-8469-64989b346e74}">
+					<Start>
+						<Event Provider="{CF474677-CB61-47AB-80C7-7996C97D0B6E}" Id="0" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{CF474677-CB61-47AB-80C7-7996C97D0B6E}" Id="1" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="SQLExecutionNotification" Guid="{01014fb9-5cd8-4026-a5bd-c13ea2b72d11}">
+					<Start>
+						<Event Provider="{CF474677-CB61-47AB-80C7-7996C97D0B6E}" Id="2" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{CF474677-CB61-47AB-80C7-7996C97D0B6E}" Id="3" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="TimeLog" Guid="{809d9bb3-b29b-442b-8bde-003cf62c565d}">
+					<Start>
+						<Event Provider="{41079D1E-1E15-4D8E-BDAB-BB93BD81C9ED}" Id="0" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{41079D1E-1E15-4D8E-BDAB-BB93BD81C9ED}" Id="1" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="VSBuildStartDebugging" Guid="{4919a901-107a-439a-b9f8-c581e99ca199}">
+					<Start>
+						<Event Provider="{86E2D1D8-0EFE-4058-93E2-A24240950BDF}" Id="0" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{86E2D1D8-0EFE-4058-93E2-A24240950BDF}" Id="1" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="VSBuildLaunchDebuggingHost" Guid="{92e14b02-8f42-40fb-9800-e0e7d7e1ff51}">
+					<Start>
+						<Event Provider="{86E2D1D8-0EFE-4058-93E2-A24240950BDF}" Id="2" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{86E2D1D8-0EFE-4058-93E2-A24240950BDF}" Id="3" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="VSBuildRequiresRecycling" Guid="{3a234884-633e-4f28-b3a9-92a23114b5b2}">
+					<Start>
+						<Event Provider="{86E2D1D8-0EFE-4058-93E2-A24240950BDF}" Id="4" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{86E2D1D8-0EFE-4058-93E2-A24240950BDF}" Id="5" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="VSBuildRecycleAppPool" Guid="{11fca06a-4e99-4695-bb6e-97c25de705ab}">
+					<Start>
+						<Event Provider="{86E2D1D8-0EFE-4058-93E2-A24240950BDF}" Id="6" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{86E2D1D8-0EFE-4058-93E2-A24240950BDF}" Id="7" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="VSBuildRecycleWorkerRoleProcess" Guid="{c68ca3a2-7e26-48c2-a39a-8e60cada9657}">
+					<Start>
+						<Event Provider="{86E2D1D8-0EFE-4058-93E2-A24240950BDF}" Id="8" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{86E2D1D8-0EFE-4058-93E2-A24240950BDF}" Id="9" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="VSBuildWarmupAppPool" Guid="{46efe906-e221-431b-a21e-2cbbe84758d8}">
+					<Start>
+						<Event Provider="{86E2D1D8-0EFE-4058-93E2-A24240950BDF}" Id="10" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{86E2D1D8-0EFE-4058-93E2-A24240950BDF}" Id="11" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="VSBuildExitDebuggingMode" Guid="{d03d2106-4e26-4c3f-a5ce-931a0716ffcb}">
+					<Start>
+						<Event Provider="{86E2D1D8-0EFE-4058-93E2-A24240950BDF}" Id="12" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{86E2D1D8-0EFE-4058-93E2-A24240950BDF}" Id="13" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="VSBuildAttachDebugger" Guid="{2e5b046d-1c3a-4713-8683-2c72dc64fe6f}">
+					<Start>
+						<Event Provider="{86E2D1D8-0EFE-4058-93E2-A24240950BDF}" Id="14" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{86E2D1D8-0EFE-4058-93E2-A24240950BDF}" Id="15" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="ProjectBuild" Guid="{11ecee7d-e34a-4ccf-ac5c-d65be4d135ca}">
+					<Start>
+						<Event Provider="{86E2D1D8-0EFE-4058-93E2-A24240950BDF}" Id="16" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{86E2D1D8-0EFE-4058-93E2-A24240950BDF}" Id="17" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="ProjectRebuild" Guid="{854167f7-c462-4a7e-af1a-0405ff1403bb}">
+					<Start>
+						<Event Provider="{86E2D1D8-0EFE-4058-93E2-A24240950BDF}" Id="18" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{86E2D1D8-0EFE-4058-93E2-A24240950BDF}" Id="19" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="FullBuild" Guid="{7016ee81-d0b5-4743-abbb-bb40ca971d56}">
+					<Start>
+						<Event Provider="{86E2D1D8-0EFE-4058-93E2-A24240950BDF}" Id="20" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{86E2D1D8-0EFE-4058-93E2-A24240950BDF}" Id="21" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="FullDBSync" Guid="{8e276a9a-620a-46ae-8a30-ae81dc6a32fa}">
+					<Start>
+						<Event Provider="{86E2D1D8-0EFE-4058-93E2-A24240950BDF}" Id="22" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{86E2D1D8-0EFE-4058-93E2-A24240950BDF}" Id="23" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="MetadataValidation" Guid="{cceaa2be-0a04-4391-9f24-1c44f6b817d9}">
+					<Start>
+						<Event Provider="{86E2D1D8-0EFE-4058-93E2-A24240950BDF}" Id="24" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{86E2D1D8-0EFE-4058-93E2-A24240950BDF}" Id="25" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="XppCompilation" Guid="{29947078-0b84-4315-bdf1-21d1f7d5fed9}">
+					<Start>
+						<Event Provider="{86E2D1D8-0EFE-4058-93E2-A24240950BDF}" Id="26" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{86E2D1D8-0EFE-4058-93E2-A24240950BDF}" Id="27" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="BPCheck" Guid="{cf21e214-0ae0-46c9-85d5-0c1c4e317186}">
+					<Start>
+						<Event Provider="{86E2D1D8-0EFE-4058-93E2-A24240950BDF}" Id="28" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{86E2D1D8-0EFE-4058-93E2-A24240950BDF}" Id="29" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="StaticFormCompilation" Guid="{68ac25c0-8527-4033-a47f-349b33b3ab03}">
+					<Start>
+						<Event Provider="{86E2D1D8-0EFE-4058-93E2-A24240950BDF}" Id="30" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{86E2D1D8-0EFE-4058-93E2-A24240950BDF}" Id="31" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="DBSync" Guid="{38c26393-f391-4680-999e-bf3e72cf50c5}">
+					<Start>
+						<Event Provider="{86E2D1D8-0EFE-4058-93E2-A24240950BDF}" Id="32" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{86E2D1D8-0EFE-4058-93E2-A24240950BDF}" Id="33" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="AppCheck" Guid="{1a0626e8-6416-4e10-8236-3ea33babf942}">
+					<Start>
+						<Event Provider="{86E2D1D8-0EFE-4058-93E2-A24240950BDF}" Id="34" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{86E2D1D8-0EFE-4058-93E2-A24240950BDF}" Id="35" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="ProjectDocumentsSaved" Guid="{dac0b381-fee3-48bf-b07c-6a8ec310847b}">
+					<Start>
+						<Event Provider="{86E2D1D8-0EFE-4058-93E2-A24240950BDF}" Id="36" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{86E2D1D8-0EFE-4058-93E2-A24240950BDF}" Id="37" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="ProjectDocumentParseCodeAndMerge" Guid="{e65eb235-1f07-4a84-93ac-0624a510d76d}">
+					<Start>
+						<Event Provider="{86E2D1D8-0EFE-4058-93E2-A24240950BDF}" Id="38" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{86E2D1D8-0EFE-4058-93E2-A24240950BDF}" Id="39" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="LanguageServiceGetLabelText" Guid="{e6e63748-c0c2-4c2f-80b8-60895e50b6aa}">
+					<Start>
+						<Event Provider="{86E2D1D8-0EFE-4058-93E2-A24240950BDF}" Id="40" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{86E2D1D8-0EFE-4058-93E2-A24240950BDF}" Id="41" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="LabelServiceLoadLabelFileIntoCache" Guid="{a9374223-3f1c-4a26-9f1f-33acea219aba}">
+					<Start>
+						<Event Provider="{86E2D1D8-0EFE-4058-93E2-A24240950BDF}" Id="42" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{86E2D1D8-0EFE-4058-93E2-A24240950BDF}" Id="43" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="VSCodeEditorIntellisenseCompletionContext" Guid="{b1dd216f-d58a-4a7b-b191-76fa56558431}">
+					<Start>
+						<Event Provider="{86E2D1D8-0EFE-4058-93E2-A24240950BDF}" Id="44" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{86E2D1D8-0EFE-4058-93E2-A24240950BDF}" Id="45" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="VSCodeEditorGotoDefinition" Guid="{87431701-0926-4e8e-bbe3-9ba8e2aba128}">
+					<Start>
+						<Event Provider="{86E2D1D8-0EFE-4058-93E2-A24240950BDF}" Id="46" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{86E2D1D8-0EFE-4058-93E2-A24240950BDF}" Id="47" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="VSCodeEditorFindAllReferences" Guid="{13db8cc4-1d55-41c9-8615-e2316eac61e9}">
+					<Start>
+						<Event Provider="{86E2D1D8-0EFE-4058-93E2-A24240950BDF}" Id="48" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{86E2D1D8-0EFE-4058-93E2-A24240950BDF}" Id="49" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="VSCodeEditorXppDocumentFormatting" Guid="{32111b45-02a2-4bd6-ad13-dd8445e6aec6}">
+					<Start>
+						<Event Provider="{86E2D1D8-0EFE-4058-93E2-A24240950BDF}" Id="50" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{86E2D1D8-0EFE-4058-93E2-A24240950BDF}" Id="51" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="VSCodeEditorInsertOverrideMethod" Guid="{cb741353-6d87-4a14-b6d9-81780e7bc05f}">
+					<Start>
+						<Event Provider="{86E2D1D8-0EFE-4058-93E2-A24240950BDF}" Id="52" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{86E2D1D8-0EFE-4058-93E2-A24240950BDF}" Id="53" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="VSProjectPackageInitializing" Guid="{244ec8a5-087c-4ac0-90cb-d030421a69d4}">
+					<Start>
+						<Event Provider="{86E2D1D8-0EFE-4058-93E2-A24240950BDF}" Id="54" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{86E2D1D8-0EFE-4058-93E2-A24240950BDF}" Id="55" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="VSCommonPackageInitializing" Guid="{943f5e65-f29a-4ea6-9a22-0ecd05127f77}">
+					<Start>
+						<Event Provider="{86E2D1D8-0EFE-4058-93E2-A24240950BDF}" Id="56" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{86E2D1D8-0EFE-4058-93E2-A24240950BDF}" Id="57" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="SharedServicesPackageInitializing" Guid="{49ed0bfe-12c2-4ded-8c30-f682206378ae}">
+					<Start>
+						<Event Provider="{86E2D1D8-0EFE-4058-93E2-A24240950BDF}" Id="58" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{86E2D1D8-0EFE-4058-93E2-A24240950BDF}" Id="59" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="ApplicationExplorerPackageInitializing" Guid="{d010b00b-a148-4a6d-b764-3251907068af}">
+					<Start>
+						<Event Provider="{86E2D1D8-0EFE-4058-93E2-A24240950BDF}" Id="60" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{86E2D1D8-0EFE-4058-93E2-A24240950BDF}" Id="61" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="ProjectLoad" Guid="{50fd83ff-ff03-4a8c-bd0e-9ab60ae44b9e}">
+					<Start>
+						<Event Provider="{86E2D1D8-0EFE-4058-93E2-A24240950BDF}" Id="62" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{86E2D1D8-0EFE-4058-93E2-A24240950BDF}" Id="63" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="ProjectReload" Guid="{c32fbaf0-9107-4825-8679-f8c92b65a45a}">
+					<Start>
+						<Event Provider="{86E2D1D8-0EFE-4058-93E2-A24240950BDF}" Id="64" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{86E2D1D8-0EFE-4058-93E2-A24240950BDF}" Id="65" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="DynamicsEditorFactoryCreateDynamicsDocData" Guid="{619c3c61-3da2-4314-802d-3efa1fcf0837}">
+					<Start>
+						<Event Provider="{86E2D1D8-0EFE-4058-93E2-A24240950BDF}" Id="66" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{86E2D1D8-0EFE-4058-93E2-A24240950BDF}" Id="67" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="DynamicsEditorFactoryCreateDynamicsDocView" Guid="{f9379e51-7ef2-4537-bbfa-6da931edf961}">
+					<Start>
+						<Event Provider="{86E2D1D8-0EFE-4058-93E2-A24240950BDF}" Id="68" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{86E2D1D8-0EFE-4058-93E2-A24240950BDF}" Id="69" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="DynamicsEditorFactoryCreateEditorInstance" Guid="{efa784bf-a583-49a3-aeda-254527070888}">
+					<Start>
+						<Event Provider="{86E2D1D8-0EFE-4058-93E2-A24240950BDF}" Id="70" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{86E2D1D8-0EFE-4058-93E2-A24240950BDF}" Id="71" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="VSBuildTypeInfoManagerInit" Guid="{8e11f51a-8a97-4453-8717-0c3241fe1c76}">
+					<Start>
+						<Event Provider="{86E2D1D8-0EFE-4058-93E2-A24240950BDF}" Id="72" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{86E2D1D8-0EFE-4058-93E2-A24240950BDF}" Id="73" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="SemanticSearchMetadataSearch" Guid="{e81b5ad8-c936-4535-a8b9-bb197dbfb1e3}">
+					<Start>
+						<Event Provider="{86E2D1D8-0EFE-4058-93E2-A24240950BDF}" Id="74" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{86E2D1D8-0EFE-4058-93E2-A24240950BDF}" Id="75" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="SemanticSearchUpdateCache" Guid="{414ca42f-459f-4b6e-8bd9-6a154ea73cfb}">
+					<Start>
+						<Event Provider="{86E2D1D8-0EFE-4058-93E2-A24240950BDF}" Id="76" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{86E2D1D8-0EFE-4058-93E2-A24240950BDF}" Id="77" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="VSDesignerContextMenuBuildAddableItems" Guid="{4282e45f-5b4c-434c-b520-7018c8e83050}">
+					<Start>
+						<Event Provider="{86E2D1D8-0EFE-4058-93E2-A24240950BDF}" Id="78" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{86E2D1D8-0EFE-4058-93E2-A24240950BDF}" Id="79" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="VSDesignerContextMenuShowSetCustomPattern" Guid="{4fa5ab05-6570-41ee-a0e7-fbb4efd055da}">
+					<Start>
+						<Event Provider="{86E2D1D8-0EFE-4058-93E2-A24240950BDF}" Id="80" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{86E2D1D8-0EFE-4058-93E2-A24240950BDF}" Id="81" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="VSDesignerContextMenuShowRestoreOriginalPattern" Guid="{9a65ae94-bc31-4586-b390-91b72a7ceeaf}">
+					<Start>
+						<Event Provider="{86E2D1D8-0EFE-4058-93E2-A24240950BDF}" Id="82" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{86E2D1D8-0EFE-4058-93E2-A24240950BDF}" Id="83" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="PropertyLookup" Guid="{0a102a82-614e-4840-bf79-560d28a217aa}">
+					<Start>
+						<Event Provider="{86E2D1D8-0EFE-4058-93E2-A24240950BDF}" Id="84" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{86E2D1D8-0EFE-4058-93E2-A24240950BDF}" Id="85" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="Compiler" Guid="{29e8adb1-719c-44a3-aabe-187fb2b8a3af}">
+					<Start>
+						<Event Provider="{9D80A6FE-3435-466F-A2E8-606D4602D2A8}" Id="0" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{9D80A6FE-3435-466F-A2E8-606D4602D2A8}" Id="1" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="Pass1" Guid="{0c6ea2ae-49bb-4d33-89cf-85eab361997c}">
+					<Start>
+						<Event Provider="{9D80A6FE-3435-466F-A2E8-606D4602D2A8}" Id="2" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{9D80A6FE-3435-466F-A2E8-606D4602D2A8}" Id="3" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="Pass2" Guid="{c2c020dd-be90-4f9f-aaa5-6ed1ce0258d8}">
+					<Start>
+						<Event Provider="{9D80A6FE-3435-466F-A2E8-606D4602D2A8}" Id="4" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{9D80A6FE-3435-466F-A2E8-606D4602D2A8}" Id="5" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="Pass3" Guid="{5dc2a800-0d39-47e9-9144-01f39f260fca}">
+					<Start>
+						<Event Provider="{9D80A6FE-3435-466F-A2E8-606D4602D2A8}" Id="6" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{9D80A6FE-3435-466F-A2E8-606D4602D2A8}" Id="7" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="Pass4" Guid="{e4511ab9-a6bd-43c1-b9a9-74554a143ff2}">
+					<Start>
+						<Event Provider="{9D80A6FE-3435-466F-A2E8-606D4602D2A8}" Id="8" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{9D80A6FE-3435-466F-A2E8-606D4602D2A8}" Id="9" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="Pass5" Guid="{b4d0b98c-2eca-4ab6-9240-e968c319b1ea}">
+					<Start>
+						<Event Provider="{9D80A6FE-3435-466F-A2E8-606D4602D2A8}" Id="10" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{9D80A6FE-3435-466F-A2E8-606D4602D2A8}" Id="11" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="LoadReferenceAssemblies" Guid="{7e288c37-0949-4cf5-93e3-a659adc13950}">
+					<Start>
+						<Event Provider="{9D80A6FE-3435-466F-A2E8-606D4602D2A8}" Id="12" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{9D80A6FE-3435-466F-A2E8-606D4602D2A8}" Id="13" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="GenerateXmlDocumentation" Guid="{3d20acbf-9e0d-4d4a-81de-6f059a0cc353}">
+					<Start>
+						<Event Provider="{9D80A6FE-3435-466F-A2E8-606D4602D2A8}" Id="14" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{9D80A6FE-3435-466F-A2E8-606D4602D2A8}" Id="15" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="EmitEventDelegateSubscriptions" Guid="{aa747562-e612-40b8-8d74-172caf258280}">
+					<Start>
+						<Event Provider="{9D80A6FE-3435-466F-A2E8-606D4602D2A8}" Id="16" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{9D80A6FE-3435-466F-A2E8-606D4602D2A8}" Id="17" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="XRefGeneration" Guid="{d0754d78-dbd3-41a2-99e8-6bdf91145808}">
+					<Start>
+						<Event Provider="{9D80A6FE-3435-466F-A2E8-606D4602D2A8}" Id="18" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{9D80A6FE-3435-466F-A2E8-606D4602D2A8}" Id="19" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="XRefWrite" Guid="{115a3694-f062-4bda-8844-d468f1883e85}">
+					<Start>
+						<Event Provider="{9D80A6FE-3435-466F-A2E8-606D4602D2A8}" Id="20" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{9D80A6FE-3435-466F-A2E8-606D4602D2A8}" Id="21" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="IdentifyDeletedMetadata" Guid="{4c68d29d-8cad-41c7-91d5-899121fa38e9}">
+					<Start>
+						<Event Provider="{9D80A6FE-3435-466F-A2E8-606D4602D2A8}" Id="22" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{9D80A6FE-3435-466F-A2E8-606D4602D2A8}" Id="23" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="CalculateMetadataHash" Guid="{ec0a49fd-593f-4d08-a019-8c8305be4e4d}">
+					<Start>
+						<Event Provider="{9D80A6FE-3435-466F-A2E8-606D4602D2A8}" Id="24" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{9D80A6FE-3435-466F-A2E8-606D4602D2A8}" Id="25" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="ASTGeneration" Guid="{0909fe54-75f2-44c1-850b-baa5c4de2f4b}">
+					<Start>
+						<Event Provider="{9D80A6FE-3435-466F-A2E8-606D4602D2A8}" Id="26" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{9D80A6FE-3435-466F-A2E8-606D4602D2A8}" Id="27" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="TypeGeneration" Guid="{01161aef-daaf-42ad-a81f-35426daa8804}">
+					<Start>
+						<Event Provider="{9D80A6FE-3435-466F-A2E8-606D4602D2A8}" Id="28" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{9D80A6FE-3435-466F-A2E8-606D4602D2A8}" Id="29" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="PipelineExecution" Guid="{54a4fb69-db20-49c8-822c-89f3594c0aaa}">
+					<Start>
+						<Event Provider="{9D80A6FE-3435-466F-A2E8-606D4602D2A8}" Id="30" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{9D80A6FE-3435-466F-A2E8-606D4602D2A8}" Id="31" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="FormObservabilityMutation" Guid="{9eac51eb-24d6-4723-89b8-93229ebfdc29}">
+					<Start>
+						<Event Provider="{9D80A6FE-3435-466F-A2E8-606D4602D2A8}" Id="32" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{9D80A6FE-3435-466F-A2E8-606D4602D2A8}" Id="33" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="ConstantFoldingMutator" Guid="{33f69452-e6cd-416b-b3c4-f8cfd6faef1e}">
+					<Start>
+						<Event Provider="{9D80A6FE-3435-466F-A2E8-606D4602D2A8}" Id="34" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{9D80A6FE-3435-466F-A2E8-606D4602D2A8}" Id="35" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="Run" Guid="{df3f95f2-cdb5-4518-9600-90f97c15357a}">
+					<Start>
+						<Event Provider="{8A240EB2-9975-4F15-B9B2-CBBACCCBCAB4}" Id="0" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{8A240EB2-9975-4F15-B9B2-CBBACCCBCAB4}" Id="1" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="RunRule" Guid="{6f378f2d-1c47-417b-b990-2e48f01475e4}">
+					<Start>
+						<Event Provider="{8A240EB2-9975-4F15-B9B2-CBBACCCBCAB4}" Id="2" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{8A240EB2-9975-4F15-B9B2-CBBACCCBCAB4}" Id="3" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="LoadCheckers" Guid="{346af23b-fdaf-438b-b149-3a04b03f82b9}">
+					<Start>
+						<Event Provider="{8A240EB2-9975-4F15-B9B2-CBBACCCBCAB4}" Id="4" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{8A240EB2-9975-4F15-B9B2-CBBACCCBCAB4}" Id="5" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="AppCheckerTask" Guid="{fc35e87f-781c-4f3c-a039-edc4f9dd4ea7}">
+					<Start>
+						<Event Provider="{5C073A9D-F42D-44D9-AEE1-C52C23157267}" Id="0" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{5C073A9D-F42D-44D9-AEE1-C52C23157267}" Id="1" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="DevALMBuildExecution" Guid="{1875f191-5b39-4c3c-8c43-935643820e0a}">
+					<Start>
+						<Event Provider="{d528f33f-ad7f-49c9-a2d0-a87de55e040c}" Id="0" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{d528f33f-ad7f-49c9-a2d0-a87de55e040c}" Id="1" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="DevALMTestExecution" Guid="{28c5ec9b-829b-4e8a-b2f8-b079813d2868}">
+					<Start>
+						<Event Provider="{d528f33f-ad7f-49c9-a2d0-a87de55e040c}" Id="2" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{d528f33f-ad7f-49c9-a2d0-a87de55e040c}" Id="3" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="DevALMSandboxTestExecution" Guid="{c432fcab-86bc-4430-aadc-f5958af5827e}">
+					<Start>
+						<Event Provider="{d528f33f-ad7f-49c9-a2d0-a87de55e040c}" Id="4" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{d528f33f-ad7f-49c9-a2d0-a87de55e040c}" Id="5" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="DevALMTaskPrepareForBuild" Guid="{7712e9ff-aaa1-4f35-b8fa-9499fda8cace}">
+					<Start>
+						<Event Provider="{d528f33f-ad7f-49c9-a2d0-a87de55e040c}" Id="6" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{d528f33f-ad7f-49c9-a2d0-a87de55e040c}" Id="7" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="DevALMTaskSetModelVersions" Guid="{1a31cde3-1e47-44f6-b0fe-90d272272c35}">
+					<Start>
+						<Event Provider="{d528f33f-ad7f-49c9-a2d0-a87de55e040c}" Id="8" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{d528f33f-ad7f-49c9-a2d0-a87de55e040c}" Id="9" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="DevALMTaskGenerateProjFiles" Guid="{1eaa971c-eb1e-4fb7-b1f9-78dab5b91501}">
+					<Start>
+						<Event Provider="{d528f33f-ad7f-49c9-a2d0-a87de55e040c}" Id="10" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{d528f33f-ad7f-49c9-a2d0-a87de55e040c}" Id="11" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="DevALMTaskBuild" Guid="{3ee93361-095d-4652-9f36-28cca67e4626}">
+					<Start>
+						<Event Provider="{d528f33f-ad7f-49c9-a2d0-a87de55e040c}" Id="12" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{d528f33f-ad7f-49c9-a2d0-a87de55e040c}" Id="13" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="DevALMTaskDBSync" Guid="{3bb4fa42-6592-4cc0-ac30-dc1437bff2df}">
+					<Start>
+						<Event Provider="{d528f33f-ad7f-49c9-a2d0-a87de55e040c}" Id="14" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{d528f33f-ad7f-49c9-a2d0-a87de55e040c}" Id="15" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="DevALMTaskDeployReports" Guid="{226d0396-6518-42ed-a42e-b2d87dfe5b45}">
+					<Start>
+						<Event Provider="{d528f33f-ad7f-49c9-a2d0-a87de55e040c}" Id="16" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{d528f33f-ad7f-49c9-a2d0-a87de55e040c}" Id="17" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="DevALMTaskGeneratePackages" Guid="{b36bede3-9e27-4467-884c-0a3c1ebcc513}">
+					<Start>
+						<Event Provider="{d528f33f-ad7f-49c9-a2d0-a87de55e040c}" Id="18" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{d528f33f-ad7f-49c9-a2d0-a87de55e040c}" Id="19" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="DevALMTaskTest" Guid="{634efa04-8bbc-4c6e-a349-765cc5f90332}">
+					<Start>
+						<Event Provider="{d528f33f-ad7f-49c9-a2d0-a87de55e040c}" Id="20" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{d528f33f-ad7f-49c9-a2d0-a87de55e040c}" Id="21" Version="0" />
+					</Stop>
+									</Region>
+							</RegionRoot>
+		</Regions>
+	</Instrumentation>
+</InstrumentationManifest>

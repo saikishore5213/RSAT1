@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ServiceModel Name="PerfSDK" i:type="WindowsService" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <Dependencies>
+    <Dependency Name="Windows-Identity-Foundation" Type="WindowsFeature"/>
+  </Dependencies>
+  <WorkingFolders>
+    <WorkingFolder Name="PerfSDKLocalDirectory" />
+  </WorkingFolders>
+  <DeploymentTasks>
+    <PreTask Name="Uninstall" Command="Scripts\Uninstall.ps1" Type="PowerShellScript">
+      <Parameter Name="config" Value="[DeployBinding]" />
+      <Parameter Name="log" Value="[DeployBinding]" />
+    </PreTask>
+    <PostTask Command="Scripts\Install.ps1" Type="PowerShellScript">
+        <Parameter Name="config" Value="[DeployBinding]"/>
+        <Parameter Name="log" Value="[DeployBinding]"/>
+    </PostTask>
+    <PostTask Name="SetConfigInstallationInfo" Command="Scripts\SetConfigInstallationInfo.ps1" Type="PowerShellScript" ContinueOnError="true">
+      	<Parameter Name="config" Value="[DeployBinding]"/>
+      	<Parameter Name="log" Value="[DeployBinding]"/>
+    </PostTask>
+  </DeploymentTasks>
+  <Configuration>
+  	<Setting Name="PerfSDKInstallPath" Value="[ServiceModel/WorkingFolders/WorkingFolder[@Name='PerfSDKLocalDirectory']/@Directory]"/>
+  	<Setting Name="HostName" Value="[Topology/Configuration/Setting[@Name='HostName']/@Value]"/>
+  	<Setting Name="SoapHostName" Value="[Topology/Configuration/Setting[@Name='SoapHostName']/@Value]"/>
+    <Setting Name="FederationRealm" Value="[Environment/Configuration/Setting[@Name='AOS.WIF.AudienceUris']/@Value]" />
+  	<Setting Name="UserName" Value="[Topology/Configuration/Setting[@Name='UserName']/@Value]" />
+    <Setting Name="Thumbprint" Value="[Topology/Configuration/Setting[@Name='TestCertificateThumbprint']/@Value]" />
+    <Setting Name="DevUserGroup" Value="[Topology/Configuration/Setting[@Name='DevUserGroup']/@Value]" />
+  </Configuration>
+</ServiceModel>

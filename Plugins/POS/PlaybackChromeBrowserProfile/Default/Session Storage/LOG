@@ -1,0 +1,16 @@
+2021/02/22-09:42:46.449 75cc Reusing MANIFEST C:\Program Files (x86)\Regression Suite Automation Tool\Plugins\POS\PlaybackChromeBrowserProfile\Default\Session Storage/MANIFEST-000001
+2021/02/22-09:42:46.451 75cc Recovering log #56
+2021/02/22-09:42:46.452 75cc Level-0 table #59: started
+2021/02/22-09:42:46.459 75cc Level-0 table #59: 12693 bytes OK
+2021/02/22-09:42:46.460 75cc Recovering log #58
+2021/02/22-09:42:46.461 75cc Reusing old log C:\Program Files (x86)\Regression Suite Automation Tool\Plugins\POS\PlaybackChromeBrowserProfile\Default\Session Storage/000058.log 
+2021/02/22-09:42:46.465 75cc Delete type=0 #56
+2021/02/22-09:42:46.466 8c50 Compacting 4@0 + 1@1 files
+2021/02/22-09:42:46.475 8c50 Generated table #60@0: 574 keys, 19632 bytes
+2021/02/22-09:42:46.476 8c50 Compacted 4@0 + 1@1 files => 19632 bytes
+2021/02/22-09:42:46.477 8c50 compacted to: files[ 0 1 1 0 0 0 0 ]
+2021/02/22-09:42:46.479 8c50 Delete type=2 #50
+2021/02/22-09:42:46.479 8c50 Delete type=2 #53
+2021/02/22-09:42:46.479 8c50 Delete type=2 #55
+2021/02/22-09:42:46.479 8c50 Delete type=2 #57
+2021/02/22-09:42:46.479 8c50 Delete type=2 #59

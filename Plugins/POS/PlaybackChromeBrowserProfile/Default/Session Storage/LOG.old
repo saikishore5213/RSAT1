@@ -1,0 +1,12 @@
+2021/02/22-09:42:07.789 332c Reusing MANIFEST C:\Program Files (x86)\Regression Suite Automation Tool\Plugins\POS\PlaybackChromeBrowserProfile\Default\Session Storage/MANIFEST-000001
+2021/02/22-09:42:07.791 332c Recovering log #52
+2021/02/22-09:42:07.791 332c Level-0 table #55: started
+2021/02/22-09:42:07.800 332c Level-0 table #55: 11223 bytes OK
+2021/02/22-09:42:07.800 332c Recovering log #54
+2021/02/22-09:42:07.801 332c Reusing old log C:\Program Files (x86)\Regression Suite Automation Tool\Plugins\POS\PlaybackChromeBrowserProfile\Default\Session Storage/000054.log 
+2021/02/22-09:42:07.804 332c Delete type=0 #52
+2021/02/22-09:42:44.177 85e4 Level-0 table #57: started
+2021/02/22-09:42:44.181 85e4 Level-0 table #57: 24129 bytes OK
+2021/02/22-09:42:44.183 85e4 Delete type=0 #54
+2021/02/22-09:42:44.205 332c Level-0 table #59: started
+2021/02/22-09:42:44.211 332c Level-0 table #59: 12693 bytes OK

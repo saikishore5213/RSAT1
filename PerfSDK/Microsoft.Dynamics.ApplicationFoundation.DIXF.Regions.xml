@@ -1,0 +1,413 @@
+﻿
+
+
+
+
+<InstrumentationManifest>
+	<Instrumentation>
+		<Regions>
+			<RegionRoot Guid="{735329cc-fc40-4d0b-8558-bb720e94dd5d}" Name="d:\dbs\Cx\l23t\.A\MsBuild.Corext.CT1Bd7U7E7_q1hBCssLvYw\v15.0\bin\MSBuild.exe">
+					<Region Name="DMFGenerateSSISPackageGenerateFileData" Guid="{e35c188a-886d-4c95-b0b7-7b1a35a8f1a3}">
+					<Start>
+						<Event Provider="{66cca55b-b192-4e1e-b75b-6d0d199e8475}" Id="0" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{66cca55b-b192-4e1e-b75b-6d0d199e8475}" Id="1" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="DMFGenerateSSISPackageGenerateStagingData" Guid="{aacda27d-5fe9-48aa-9bf4-327b8ae004f9}">
+					<Start>
+						<Event Provider="{66cca55b-b192-4e1e-b75b-6d0d199e8475}" Id="2" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{66cca55b-b192-4e1e-b75b-6d0d199e8475}" Id="3" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="DMFEntityDbExporterGenerateEntityDbData" Guid="{545b8639-6dba-466c-b9c2-41d494d35c98}">
+					<Start>
+						<Event Provider="{66cca55b-b192-4e1e-b75b-6d0d199e8475}" Id="4" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{66cca55b-b192-4e1e-b75b-6d0d199e8475}" Id="5" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="DMFExecutionTask" Guid="{949fed93-f384-4702-90d0-4c27571c09f7}">
+					<Start>
+						<Event Provider="{66cca55b-b192-4e1e-b75b-6d0d199e8475}" Id="6" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{66cca55b-b192-4e1e-b75b-6d0d199e8475}" Id="7" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="DMFTestEntityDbConnectionTask" Guid="{d8f95c78-e3c6-4272-9e05-53514a8960cc}">
+					<Start>
+						<Event Provider="{66cca55b-b192-4e1e-b75b-6d0d199e8475}" Id="8" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{66cca55b-b192-4e1e-b75b-6d0d199e8475}" Id="9" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="DMFTestEntityDbConnectionTaskV2" Guid="{6784ffba-bf07-4fe4-a1be-2eec56a18895}">
+					<Start>
+						<Event Provider="{66cca55b-b192-4e1e-b75b-6d0d199e8475}" Id="10" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{66cca55b-b192-4e1e-b75b-6d0d199e8475}" Id="11" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="DMFCreateAndExecuteEntityDbExportTask" Guid="{36bfd9a1-5644-46d5-a66f-55bc8c22c504}">
+					<Start>
+						<Event Provider="{66cca55b-b192-4e1e-b75b-6d0d199e8475}" Id="12" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{66cca55b-b192-4e1e-b75b-6d0d199e8475}" Id="13" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="DMFCreateAndExecuteEntityDbExportTaskV2" Guid="{f606294c-c038-4e65-9c06-1e444fee01c9}">
+					<Start>
+						<Event Provider="{66cca55b-b192-4e1e-b75b-6d0d199e8475}" Id="14" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{66cca55b-b192-4e1e-b75b-6d0d199e8475}" Id="15" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="DMFPackageAPIImport" Guid="{1223ce9c-3a39-40a7-b92d-36220fad5c76}">
+					<Start>
+						<Event Provider="{66cca55b-b192-4e1e-b75b-6d0d199e8475}" Id="16" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{66cca55b-b192-4e1e-b75b-6d0d199e8475}" Id="17" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="DMFPackageAPIExport" Guid="{3db1672e-fbcd-40bb-a61b-27b682503e29}">
+					<Start>
+						<Event Provider="{66cca55b-b192-4e1e-b75b-6d0d199e8475}" Id="18" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{66cca55b-b192-4e1e-b75b-6d0d199e8475}" Id="19" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="DMFExportAsync" Guid="{d403a13f-b36f-4c53-82c2-b822940e8308}">
+					<Start>
+						<Event Provider="{66cca55b-b192-4e1e-b75b-6d0d199e8475}" Id="20" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{66cca55b-b192-4e1e-b75b-6d0d199e8475}" Id="21" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="DMFExportSync" Guid="{6c1ffa8c-7dad-4af0-8b2b-4fc9e18c9eae}">
+					<Start>
+						<Event Provider="{66cca55b-b192-4e1e-b75b-6d0d199e8475}" Id="22" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{66cca55b-b192-4e1e-b75b-6d0d199e8475}" Id="23" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="DMFImportAsync" Guid="{3e3e3652-a658-4b66-bb51-be28d7c5da72}">
+					<Start>
+						<Event Provider="{66cca55b-b192-4e1e-b75b-6d0d199e8475}" Id="24" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{66cca55b-b192-4e1e-b75b-6d0d199e8475}" Id="25" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="DMFImportSync" Guid="{f4a6dc4e-a533-4796-b01e-6a680b3681e8}">
+					<Start>
+						<Event Provider="{66cca55b-b192-4e1e-b75b-6d0d199e8475}" Id="26" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{66cca55b-b192-4e1e-b75b-6d0d199e8475}" Id="27" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="DMFKeyFieldsMappingStatus" Guid="{802c0496-170c-4e3f-b0c9-5441592f2539}">
+					<Start>
+						<Event Provider="{66cca55b-b192-4e1e-b75b-6d0d199e8475}" Id="28" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{66cca55b-b192-4e1e-b75b-6d0d199e8475}" Id="29" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="DMFKeyFieldsMappingStatusV2" Guid="{3a225a7b-38ba-4df7-8694-152f6bbfe7b0}">
+					<Start>
+						<Event Provider="{66cca55b-b192-4e1e-b75b-6d0d199e8475}" Id="30" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{66cca55b-b192-4e1e-b75b-6d0d199e8475}" Id="31" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="DMFMigrateEntity" Guid="{4d7e7012-5dfe-445b-8430-5b9fdd836869}">
+					<Start>
+						<Event Provider="{66cca55b-b192-4e1e-b75b-6d0d199e8475}" Id="32" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{66cca55b-b192-4e1e-b75b-6d0d199e8475}" Id="33" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="DMFMigrateEntityV2" Guid="{3266aad6-7d10-4bf4-8b24-ee565a4cffa9}">
+					<Start>
+						<Event Provider="{66cca55b-b192-4e1e-b75b-6d0d199e8475}" Id="34" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{66cca55b-b192-4e1e-b75b-6d0d199e8475}" Id="35" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="DMFCopyBitMapValues" Guid="{781c05af-64d2-4c37-b981-f948bae04008}">
+					<Start>
+						<Event Provider="{66cca55b-b192-4e1e-b75b-6d0d199e8475}" Id="36" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{66cca55b-b192-4e1e-b75b-6d0d199e8475}" Id="37" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="DMFCopyBitMapValuesV2" Guid="{bab4bf45-202e-4abe-85e5-7e15bfd4b9a7}">
+					<Start>
+						<Event Provider="{66cca55b-b192-4e1e-b75b-6d0d199e8475}" Id="38" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{66cca55b-b192-4e1e-b75b-6d0d199e8475}" Id="39" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="DMFPostStaging" Guid="{a07649ae-f52d-496b-8397-b1631d485dda}">
+					<Start>
+						<Event Provider="{66cca55b-b192-4e1e-b75b-6d0d199e8475}" Id="40" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{66cca55b-b192-4e1e-b75b-6d0d199e8475}" Id="41" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="DMFPostStagingV2" Guid="{e5b2594d-6178-4822-8f82-e1a20217bd0a}">
+					<Start>
+						<Event Provider="{66cca55b-b192-4e1e-b75b-6d0d199e8475}" Id="42" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{66cca55b-b192-4e1e-b75b-6d0d199e8475}" Id="43" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="DMFExecuteTargetStep" Guid="{775159f7-6c0b-4015-8b6f-85ccfb0e5530}">
+					<Start>
+						<Event Provider="{66cca55b-b192-4e1e-b75b-6d0d199e8475}" Id="44" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{66cca55b-b192-4e1e-b75b-6d0d199e8475}" Id="45" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="DMFExecuteTargetStepV2" Guid="{096b3bd9-de05-458e-84a7-6215c18b030f}">
+					<Start>
+						<Event Provider="{66cca55b-b192-4e1e-b75b-6d0d199e8475}" Id="46" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{66cca55b-b192-4e1e-b75b-6d0d199e8475}" Id="47" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="DMFRecurringExport" Guid="{2e0cf1b9-24e0-42c8-822c-07a38d4cd01c}">
+					<Start>
+						<Event Provider="{66cca55b-b192-4e1e-b75b-6d0d199e8475}" Id="48" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{66cca55b-b192-4e1e-b75b-6d0d199e8475}" Id="49" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="DMFRecurringImport" Guid="{47fe343b-6e0e-417a-88bd-463b0fb786b2}">
+					<Start>
+						<Event Provider="{66cca55b-b192-4e1e-b75b-6d0d199e8475}" Id="50" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{66cca55b-b192-4e1e-b75b-6d0d199e8475}" Id="51" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="DMFPackageExport" Guid="{975ef57a-a79b-4bc0-aa1f-0804e40d6387}">
+					<Start>
+						<Event Provider="{66cca55b-b192-4e1e-b75b-6d0d199e8475}" Id="52" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{66cca55b-b192-4e1e-b75b-6d0d199e8475}" Id="53" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="DMFGetBYODSyncVersion" Guid="{4c32a02f-21fd-4081-bfd6-3d34f75ddf73}">
+					<Start>
+						<Event Provider="{66cca55b-b192-4e1e-b75b-6d0d199e8475}" Id="54" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{66cca55b-b192-4e1e-b75b-6d0d199e8475}" Id="55" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="DMFMoveToStaging" Guid="{62d7a6b0-45aa-4502-8b5a-1f5cd41e0923}">
+					<Start>
+						<Event Provider="{66cca55b-b192-4e1e-b75b-6d0d199e8475}" Id="56" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{66cca55b-b192-4e1e-b75b-6d0d199e8475}" Id="57" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="DMFExportToTarget" Guid="{0013b416-d6b9-44b2-a2d3-20cd91a41a14}">
+					<Start>
+						<Event Provider="{66cca55b-b192-4e1e-b75b-6d0d199e8475}" Id="58" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{66cca55b-b192-4e1e-b75b-6d0d199e8475}" Id="59" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="DMFCreatePackage" Guid="{e00420c9-2d34-477d-9ecc-555ed768ff73}">
+					<Start>
+						<Event Provider="{66cca55b-b192-4e1e-b75b-6d0d199e8475}" Id="60" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{66cca55b-b192-4e1e-b75b-6d0d199e8475}" Id="61" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="DMFExportDataToBYOD" Guid="{59b4e811-8a2b-4649-8b7e-7fa50cff1e89}">
+					<Start>
+						<Event Provider="{66cca55b-b192-4e1e-b75b-6d0d199e8475}" Id="62" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{66cca55b-b192-4e1e-b75b-6d0d199e8475}" Id="63" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="DMFExportStagingCreationBYOD" Guid="{921695bb-3864-449a-8b5b-264b76ae6336}">
+					<Start>
+						<Event Provider="{66cca55b-b192-4e1e-b75b-6d0d199e8475}" Id="64" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{66cca55b-b192-4e1e-b75b-6d0d199e8475}" Id="65" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="DMFExportStagingCreationFile" Guid="{9ebbf040-d2eb-4934-8611-d73ce08dddd7}">
+					<Start>
+						<Event Provider="{66cca55b-b192-4e1e-b75b-6d0d199e8475}" Id="66" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{66cca55b-b192-4e1e-b75b-6d0d199e8475}" Id="67" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="DMFExportDataToFile" Guid="{5002788c-dc2c-4b34-a1ba-c507a051883b}">
+					<Start>
+						<Event Provider="{66cca55b-b192-4e1e-b75b-6d0d199e8475}" Id="68" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{66cca55b-b192-4e1e-b75b-6d0d199e8475}" Id="69" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="DMFImportFromPackage" Guid="{fda86ca4-15d4-46e2-87b3-4cf19a35eaa8}">
+					<Start>
+						<Event Provider="{66cca55b-b192-4e1e-b75b-6d0d199e8475}" Id="70" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{66cca55b-b192-4e1e-b75b-6d0d199e8475}" Id="71" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="DMFPackageAPIImportInBatch" Guid="{f0579231-0e44-4ac5-8f3e-32e73b9f1c5d}">
+					<Start>
+						<Event Provider="{66cca55b-b192-4e1e-b75b-6d0d199e8475}" Id="72" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{66cca55b-b192-4e1e-b75b-6d0d199e8475}" Id="73" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="DMFGenerateStagingData" Guid="{0925f48c-daaf-4bca-976d-0f8bc98a2876}">
+					<Start>
+						<Event Provider="{66cca55b-b192-4e1e-b75b-6d0d199e8475}" Id="74" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{66cca55b-b192-4e1e-b75b-6d0d199e8475}" Id="75" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="DMFGenerateStagingDataV2" Guid="{f508735a-512d-4982-84e4-eb6ba7dc66f6}">
+					<Start>
+						<Event Provider="{66cca55b-b192-4e1e-b75b-6d0d199e8475}" Id="76" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{66cca55b-b192-4e1e-b75b-6d0d199e8475}" Id="77" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="DMFEntityRefresh" Guid="{b44b630d-9eec-4ae7-99a9-02129a749b5e}">
+					<Start>
+						<Event Provider="{66cca55b-b192-4e1e-b75b-6d0d199e8475}" Id="78" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{66cca55b-b192-4e1e-b75b-6d0d199e8475}" Id="79" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="DMFEnableChangeTrackingV2" Guid="{00da20d0-94fa-4727-ad50-61d1922a525f}">
+					<Start>
+						<Event Provider="{66cca55b-b192-4e1e-b75b-6d0d199e8475}" Id="80" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{66cca55b-b192-4e1e-b75b-6d0d199e8475}" Id="81" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="ApplyXsltTransformation" Guid="{a79f096f-c2a9-4372-9665-35f04af29a56}">
+					<Start>
+						<Event Provider="{99a95da3-33b7-47d0-936f-0a5c87e1cb9c}" Id="0" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{99a95da3-33b7-47d0-936f-0a5c87e1cb9c}" Id="1" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="DeleteFile" Guid="{82df497e-c01a-48c4-88c0-3dcf2a06805c}">
+					<Start>
+						<Event Provider="{99a95da3-33b7-47d0-936f-0a5c87e1cb9c}" Id="2" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{99a95da3-33b7-47d0-936f-0a5c87e1cb9c}" Id="3" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="RunSSISScreenCapture" Guid="{bc8b4a50-0684-4fb2-bb20-cb0dde5db132}">
+					<Start>
+						<Event Provider="{99a95da3-33b7-47d0-936f-0a5c87e1cb9c}" Id="4" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{99a95da3-33b7-47d0-936f-0a5c87e1cb9c}" Id="5" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="GenerateQueriesForMeasurement" Guid="{3527aa83-f61c-485c-a26b-9aa58f9b5010}">
+					<Start>
+						<Event Provider="{BC62F480-CECF-49B7-8B1F-5B99FB8DBE18}" Id="0" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{BC62F480-CECF-49B7-8B1F-5B99FB8DBE18}" Id="1" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="GenerateQueriesForView" Guid="{4100c31f-74e9-4b0a-98c7-c7776436a287}">
+					<Start>
+						<Event Provider="{BC62F480-CECF-49B7-8B1F-5B99FB8DBE18}" Id="2" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{BC62F480-CECF-49B7-8B1F-5B99FB8DBE18}" Id="3" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="GenerateQueriesForDatasource" Guid="{f496996e-6883-4776-a06e-b6eee5ac50c7}">
+					<Start>
+						<Event Provider="{BC62F480-CECF-49B7-8B1F-5B99FB8DBE18}" Id="4" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{BC62F480-CECF-49B7-8B1F-5B99FB8DBE18}" Id="5" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="DeleteQueriesForMeasurement" Guid="{1ae4752e-1ccc-4871-8a3a-415890a748a1}">
+					<Start>
+						<Event Provider="{BC62F480-CECF-49B7-8B1F-5B99FB8DBE18}" Id="6" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{BC62F480-CECF-49B7-8B1F-5B99FB8DBE18}" Id="7" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="GenerateTriggerStatement" Guid="{b521ffc6-fa13-4fcc-ae6f-758012191462}">
+					<Start>
+						<Event Provider="{BC62F480-CECF-49B7-8B1F-5B99FB8DBE18}" Id="8" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{BC62F480-CECF-49B7-8B1F-5B99FB8DBE18}" Id="9" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="RegisterDataEntityForChangeTracking" Guid="{4d1479b0-36d7-4770-a3d2-7cc55b7e82dc}">
+					<Start>
+						<Event Provider="{BC62F480-CECF-49B7-8B1F-5B99FB8DBE18}" Id="10" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{BC62F480-CECF-49B7-8B1F-5B99FB8DBE18}" Id="11" Version="0" />
+					</Stop>
+									</Region>
+							</RegionRoot>
+		</Regions>
+	</Instrumentation>
+</InstrumentationManifest>

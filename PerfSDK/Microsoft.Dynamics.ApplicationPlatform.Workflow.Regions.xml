@@ -1,0 +1,60 @@
+﻿
+
+
+
+<InstrumentationManifest>
+	<Instrumentation>
+		<Regions>
+			<RegionRoot Guid="{bfb80e03-2629-4c9e-812f-b95cc2a7c388}" Name="d:\dbs\Cx\l23t\.A\MsBuild.Corext.CT1Bd7U7E7_q1hBCssLvYw\v15.0\bin\MSBuild.exe">
+					<Region Name="WorkflowProcessMessage" Guid="{0f1e988b-1d18-4ced-801c-b47363e3affc}">
+					<Start>
+						<Event Provider="{BE02D880-FF4C-4EDA-B572-952CCC4D9AE0}" Id="0" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{BE02D880-FF4C-4EDA-B572-952CCC4D9AE0}" Id="1" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="WorkflowProcessMessageBundle" Guid="{4085bc0d-39cc-4ea9-ba80-99c2ad198d75}">
+					<Start>
+						<Event Provider="{BE02D880-FF4C-4EDA-B572-952CCC4D9AE0}" Id="2" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{BE02D880-FF4C-4EDA-B572-952CCC4D9AE0}" Id="3" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="WorkflowExecuteAutomatedTask" Guid="{cca73f8c-5e44-41ea-b90d-10941f3970ea}">
+					<Start>
+						<Event Provider="{BE02D880-FF4C-4EDA-B572-952CCC4D9AE0}" Id="4" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{BE02D880-FF4C-4EDA-B572-952CCC4D9AE0}" Id="5" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="WorkflowExecuteEventHandler" Guid="{b6315aa6-9d8e-4808-b14f-ded2d656f6cd}">
+					<Start>
+						<Event Provider="{BE02D880-FF4C-4EDA-B572-952CCC4D9AE0}" Id="6" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{BE02D880-FF4C-4EDA-B572-952CCC4D9AE0}" Id="7" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="SendingEmail" Guid="{092133fc-a702-4067-939a-6b67e9ec0630}">
+					<Start>
+						<Event Provider="{B399F801-190C-4F22-89C5-72E24D104298}" Id="0" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{B399F801-190C-4F22-89C5-72E24D104298}" Id="1" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="SendingEmailToSystem" Guid="{68e71c0d-6640-4de4-9510-962d1a642d3f}">
+					<Start>
+						<Event Provider="{B399F801-190C-4F22-89C5-72E24D104298}" Id="2" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{B399F801-190C-4F22-89C5-72E24D104298}" Id="3" Version="0" />
+					</Stop>
+									</Region>
+							</RegionRoot>
+		</Regions>
+	</Instrumentation>
+</InstrumentationManifest>

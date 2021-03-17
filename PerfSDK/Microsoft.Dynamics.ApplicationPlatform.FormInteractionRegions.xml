@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<?Copyright (c) Microsoft Corporation. All rights reserved.?>
+<InstrumentationManifest>
+  <Instrumentation>
+    <Regions>
+      <RegionRoot Guid="{55B7CE14-CAB1-4590-AEEB-D2EEA4C2D067}" Name="Application-Suite-Interaction-Service" FriendlyName="Interaction Service actions">
+        <Region Guid="{590D9749-FE66-4EDB-A14C-7B855F4BC8B8}" Name="Handle-Interaction-Task">
+          <Start>
+            <Event Provider="{17712ABF-12A2-46AB-A53C-6BAEBDBF6F0E}" Id="44000" Version="0" />
+          </Start>
+          <Stop>
+            <Event Provider="{17712ABF-12A2-46AB-A53C-6BAEBDBF6F0E}" Id="44001" Version="0" />
+          </Stop>
+          <Region Guid="{84809C12-24C3-40E5-AC59-DADE2BBCD1F8}" Name="Process-Messages-Task">
+            <Start>
+              <Event Provider="{17712ABF-12A2-46AB-A53C-6BAEBDBF6F0E}" Id="44058" Version="0" />
+            </Start>
+            <Stop>
+              <Event Provider="{17712ABF-12A2-46AB-A53C-6BAEBDBF6F0E}" Id="44059" Version="0" />
+            </Stop>
+            <Match>
+              <Event TID="true">
+                <Payload FieldName="requestId" TargetFieldName="requestId" />
+                <Payload FieldName="sessionId" TargetFieldName="sessionId" />
+                <Payload FieldName="userId" TargetFieldName="userId" />
+                <Payload FieldName="customer" TargetFieldName="customer" />
+              </Event>
+            </Match>
+            <Naming>
+              <PayloadBased NameField="FormName" />
+            </Naming>
+            <Metadata>
+              <FAS.TestNode>yes</FAS.TestNode>
+            </Metadata>
+            <Region Guid="{598ED7D2-CEC9-4002-BA1D-4998EDF984DF}" Name="Command-Interaction-Task">
+              <Start>
+                <Event Provider="{17712ABF-12A2-46AB-A53C-6BAEBDBF6F0E}" Id="44040" Version="0" />
+              </Start>
+              <Stop>
+                <Event Provider="{17712ABF-12A2-46AB-A53C-6BAEBDBF6F0E}" Id="44041" Version="0" />
+              </Stop>
+              <Match>
+                <Event TID="true">
+                  <Payload FieldName="requestId" TargetFieldName="requestId" />
+                  <Payload FieldName="sessionId" TargetFieldName="sessionId" />
+                  <Payload FieldName="userId" TargetFieldName="userId" />
+                  <Payload FieldName="customer" TargetFieldName="customer" />
+                </Event>
+              </Match>
+              <Naming>
+                <PayloadBased NameField="FormName" />
+              </Naming>
+              <Metadata>
+                <FAS.TestNode>yes</FAS.TestNode>
+              </Metadata>
+              <Region Guid="{85298622-9F70-4F9C-A7E4-E3AE32FBBA4F}" Name="Open-Form-Task">
+                <Start>
+                  <Event Provider="{17712ABF-12A2-46AB-A53C-6BAEBDBF6F0E}" Id="44004" Version="0" />
+                </Start>
+                <Stop>
+                  <Event Provider="{17712ABF-12A2-46AB-A53C-6BAEBDBF6F0E}" Id="44005" Version="0" />
+                </Stop>
+                <Region Guid="{506619BC-EF66-429C-B1A6-88D5A95262EE}" Name="Instantiate-Form-Task">
+                  <Start>
+                    <Event Provider="{17712ABF-12A2-46AB-A53C-6BAEBDBF6F0E}" Id="44006" Version="0" />
+                  </Start>
+                  <Stop>
+                    <Event Provider="{17712ABF-12A2-46AB-A53C-6BAEBDBF6F0E}" Id="44007" Version="0" />
+                  </Stop>
+                  <Metadata>
+                    <FAS.TestNode>yes</FAS.TestNode>
+                  </Metadata>
+                </Region>
+
+                <Metadata>
+                  <FAS.TestNode>yes</FAS.TestNode>
+                </Metadata>
+              </Region>
+              <Region Guid="{C36F1DCB-BD04-4B36-ABF0-69968077927B}" Name="Load-Form-Task">
+                <Start>
+                  <Event Provider="{17712ABF-12A2-46AB-A53C-6BAEBDBF6F0E}" Id="44010" Version="0" />
+                </Start>
+                <Stop>
+                  <Event Provider="{17712ABF-12A2-46AB-A53C-6BAEBDBF6F0E}" Id="44011" Version="0" />
+                </Stop>
+              </Region>
+              <Region Guid="{70E2E43C-9C3F-4D69-B9EA-89074FAE3363}" Name="SQL-Statement">
+                <Start>
+                  <Event Provider="{B518FD3F-6D6F-46D3-BC51-F765226A4FE2}" Id="45038" Version="0" />
+                </Start>
+                <Stop>
+                  <Event Provider="{B518FD3F-6D6F-46D3-BC51-F765226A4FE2}" Id="45039" Version="0" />
+                </Stop>
+                <Match>
+                  <Event TID="true" PID="true">
+                    <Payload FieldName="requestId" TargetFieldName="requestId" />
+                    <Payload FieldName="sessionId" TargetFieldName="sessionId" />
+                    <Payload FieldName="userId" TargetFieldName="userId" />
+                    <Payload FieldName="customer" TargetFieldName="customer" />
+					<Payload FieldName="SQLStatement" TargetFieldName="SQLStatement" />
+                  </Event>
+                </Match>
+                <Naming>
+                  <PayloadBased NameField="SQLStatement" />
+                </Naming>
+              </Region>
+            </Region>
+            <Region Guid="{CE54AC07-D06E-49ED-8224-2096978B4D96}" Name="Property-Change-Interaction-Task">
+              <Start>
+                <Event Provider="{17712ABF-12A2-46AB-A53C-6BAEBDBF6F0E}" Id="44038" Version="0" />
+              </Start>
+              <Stop>
+                <Event Provider="{17712ABF-12A2-46AB-A53C-6BAEBDBF6F0E}" Id="44039" Version="0" />
+              </Stop>
+              <Match>
+                <Event TID="true">
+                  <Payload FieldName="requestId" TargetFieldName="requestId" />
+                  <Payload FieldName="sessionId" TargetFieldName="sessionId" />
+                  <Payload FieldName="userId" TargetFieldName="userId" />
+                  <Payload FieldName="customer" TargetFieldName="customer" />
+                </Event>
+              </Match>
+              <Naming>
+                <PayloadBased NameField="ControlName" />
+              </Naming>
+              <Metadata>
+                <FAS.TestNode>yes</FAS.TestNode>
+              </Metadata>
+              <Region Guid="{BBF29CDB-02FF-4631-B8E2-581120B805AD}" Name="SQL-Statement">
+                <Start>
+                  <Event Provider="{B518FD3F-6D6F-46D3-BC51-F765226A4FE2}" Id="45038" Version="0" />
+                </Start>
+                <Stop>
+                  <Event Provider="{B518FD3F-6D6F-46D3-BC51-F765226A4FE2}" Id="45039" Version="0" />
+                </Stop>
+                <Match>
+                  <Event TID="true" PID="true">
+                    <Payload FieldName="requestId" TargetFieldName="requestId" />
+                    <Payload FieldName="sessionId" TargetFieldName="sessionId" />
+                    <Payload FieldName="userId" TargetFieldName="userId" />
+                    <Payload FieldName="customer" TargetFieldName="customer" />
+					<Payload FieldName="SQLStatement" TargetFieldName="SQLStatement" />
+                  </Event>
+                </Match>
+                <Naming>
+                  <PayloadBased NameField="SQLStatement" />
+                </Naming>
+              </Region>
+            </Region>
+          </Region>
+          <Region Guid="{4D5124FB-7830-448E-BA2A-A3C8C53DF238}" Name="WaitTask">
+            <Start>
+              <Event Provider="{17712ABF-12A2-46AB-A53C-6BAEBDBF6F0E}" Id="44000" Version="0" />
+            </Start>
+            <Stop>
+              <Event Provider="{17712ABF-12A2-46AB-A53C-6BAEBDBF6F0E}" Id="44001" Version="0" />
+            </Stop>
+          </Region>
+        </Region>
+      </RegionRoot>
+    </Regions>
+  </Instrumentation>
+</InstrumentationManifest>

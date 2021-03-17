@@ -1,0 +1,156 @@
+﻿
+
+
+
+<InstrumentationManifest>
+	<Instrumentation>
+		<Regions>
+			<RegionRoot Guid="{05801084-ee64-4945-ad7b-6bae8e903fdc}" Name="d:\dbs\Cx\l23t\.A\MsBuild.Corext.CT1Bd7U7E7_q1hBCssLvYw\v15.0\bin\MSBuild.exe">
+					<Region Name="DownloadDocumentTask" Guid="{9e77c94a-4add-437b-af20-c20e722ae679}">
+					<Start>
+						<Event Provider="{41D87242-34A9-498B-85D9-EDE800741DC8}" Id="0" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{41D87242-34A9-498B-85D9-EDE800741DC8}" Id="1" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="DeleteDocumentFromBlobStorageTask" Guid="{eddfa2ca-30b8-4159-99f4-f1c8292d0e05}">
+					<Start>
+						<Event Provider="{41D87242-34A9-498B-85D9-EDE800741DC8}" Id="2" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{41D87242-34A9-498B-85D9-EDE800741DC8}" Id="3" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="PrintMetafileDocumentTask" Guid="{e07e3b61-f111-4589-9e5c-85d8af7f3c63}">
+					<Start>
+						<Event Provider="{41D87242-34A9-498B-85D9-EDE800741DC8}" Id="4" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{41D87242-34A9-498B-85D9-EDE800741DC8}" Id="5" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="PrintMetafileTask" Guid="{7c77fd73-97d9-4bca-88ec-261af355d9e0}">
+					<Start>
+						<Event Provider="{41D87242-34A9-498B-85D9-EDE800741DC8}" Id="6" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{41D87242-34A9-498B-85D9-EDE800741DC8}" Id="7" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="SplitByteArrayIntoMetafilePagesTask" Guid="{e96cbb9c-52b9-4a9c-8666-11ae62fda097}">
+					<Start>
+						<Event Provider="{41D87242-34A9-498B-85D9-EDE800741DC8}" Id="8" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{41D87242-34A9-498B-85D9-EDE800741DC8}" Id="9" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="SendToZebraPrinterTask" Guid="{46fb7352-4607-4ed7-97e2-7549e3841d7f}">
+					<Start>
+						<Event Provider="{41D87242-34A9-498B-85D9-EDE800741DC8}" Id="10" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{41D87242-34A9-498B-85D9-EDE800741DC8}" Id="11" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="ProcessPageSettingsTask" Guid="{ec2586d2-1996-48e3-b680-cdd44830af5a}">
+					<Start>
+						<Event Provider="{41D87242-34A9-498B-85D9-EDE800741DC8}" Id="12" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{41D87242-34A9-498B-85D9-EDE800741DC8}" Id="13" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="TransferPageSettingsTask" Guid="{f1d32369-6b4f-4e38-885a-a8e431c03d00}">
+					<Start>
+						<Event Provider="{41D87242-34A9-498B-85D9-EDE800741DC8}" Id="14" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{41D87242-34A9-498B-85D9-EDE800741DC8}" Id="15" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="DocumentRoutingAgentTask" Guid="{d2d1453b-bb48-4437-9a47-868ce15fe1ad}">
+					<Start>
+						<Event Provider="{41D87242-34A9-498B-85D9-EDE800741DC8}" Id="16" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{41D87242-34A9-498B-85D9-EDE800741DC8}" Id="17" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="DocumentRoutingAgentSettingsTask" Guid="{3f184eaa-5455-4226-925c-d1ad32deafaa}">
+					<Start>
+						<Event Provider="{41D87242-34A9-498B-85D9-EDE800741DC8}" Id="18" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{41D87242-34A9-498B-85D9-EDE800741DC8}" Id="19" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="DocumentRoutingAgentAuthenticateTask" Guid="{6bb1ba47-bdc4-4e3d-a830-a1e4a08bc805}">
+					<Start>
+						<Event Provider="{41D87242-34A9-498B-85D9-EDE800741DC8}" Id="20" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{41D87242-34A9-498B-85D9-EDE800741DC8}" Id="21" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="DocumentRoutingAgentPrintersTask" Guid="{b28db67e-47e2-4e86-9d94-64290f9a587c}">
+					<Start>
+						<Event Provider="{41D87242-34A9-498B-85D9-EDE800741DC8}" Id="22" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{41D87242-34A9-498B-85D9-EDE800741DC8}" Id="23" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="DocumentRoutingRouteDocumentTask" Guid="{6532848f-eb97-49d6-bce3-33e502de3cda}">
+					<Start>
+						<Event Provider="{41D87242-34A9-498B-85D9-EDE800741DC8}" Id="24" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{41D87242-34A9-498B-85D9-EDE800741DC8}" Id="25" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="SendDocumentContractToPrinterTask" Guid="{4c8b31be-5144-44cf-9e1f-796355d4a9ed}">
+					<Start>
+						<Event Provider="{41D87242-34A9-498B-85D9-EDE800741DC8}" Id="26" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{41D87242-34A9-498B-85D9-EDE800741DC8}" Id="27" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="AddToStatusTableStartTask" Guid="{c24faf8c-cfee-42af-998e-c2779d3dba14}">
+					<Start>
+						<Event Provider="{41D87242-34A9-498B-85D9-EDE800741DC8}" Id="28" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{41D87242-34A9-498B-85D9-EDE800741DC8}" Id="29" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="UpdateStatusTask" Guid="{e4b8d58c-4a8c-4380-aee8-33e81fc97085}">
+					<Start>
+						<Event Provider="{41D87242-34A9-498B-85D9-EDE800741DC8}" Id="30" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{41D87242-34A9-498B-85D9-EDE800741DC8}" Id="31" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="PrintPdfDocumentTask" Guid="{4f4eb465-a2a9-40d1-8e46-1cef95375ad4}">
+					<Start>
+						<Event Provider="{41D87242-34A9-498B-85D9-EDE800741DC8}" Id="32" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{41D87242-34A9-498B-85D9-EDE800741DC8}" Id="33" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="UpdateServiceStatusTask" Guid="{27a2ac6b-b118-4204-977e-c2fbb6501dd5}">
+					<Start>
+						<Event Provider="{41D87242-34A9-498B-85D9-EDE800741DC8}" Id="34" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{41D87242-34A9-498B-85D9-EDE800741DC8}" Id="35" Version="0" />
+					</Stop>
+									</Region>
+							</RegionRoot>
+		</Regions>
+	</Instrumentation>
+</InstrumentationManifest>

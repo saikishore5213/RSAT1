@@ -1,0 +1,2 @@
+"c:\Program Files (x86)\Windows Kits\8.1\bin\x64\makecert" -n "CN=KeyVaultCert" -ss My -sr CurrentUser -a sha256 -len 2048 -cy end -r -eku 1.3.6.1.5.5.7.3.2 -sv c:\temp\KeyVaultCert.pvk c:\temp\KeyVaultCert.cer
+"c:\Program Files (x86)\Windows Kits\8.1\bin\x64\pvk2pfx" -pvk c:\temp\KeyVaultCert.pvk -spc c:\temp\KeyVaultCert.cer -pfx c:\temp\KeyVaultCert.pfx

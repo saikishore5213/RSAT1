@@ -1,0 +1,365 @@
+﻿
+
+
+
+
+<InstrumentationManifest>
+	<Instrumentation>
+		<Regions>
+			<RegionRoot Guid="{dad7a34d-1a1f-4f7c-aec1-dccb66af371a}" Name="d:\dbs\Cx\l23t\.A\MsBuild.Corext.CT1Bd7U7E7_q1hBCssLvYw\v15.0\bin\MSBuild.exe">
+					<Region Name="ODataMetadataAccessorGetTask" Guid="{97a86d35-da82-4391-aff7-f525bcc4f9db}">
+					<Start>
+						<Event Provider="{494AFCE5-0A3B-4B65-B331-282D5A52A192}" Id="0" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{494AFCE5-0A3B-4B65-B331-282D5A52A192}" Id="1" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="ODataMetadataAccessorGetKeysTask" Guid="{82aa9078-7da0-4eaf-98d7-32e8daa1a441}">
+					<Start>
+						<Event Provider="{494AFCE5-0A3B-4B65-B331-282D5A52A192}" Id="2" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{494AFCE5-0A3B-4B65-B331-282D5A52A192}" Id="3" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="ODataMetadataControllerGetKeyTask" Guid="{4ffe88bc-10eb-43a7-be66-5e49d0322d3d}">
+					<Start>
+						<Event Provider="{494AFCE5-0A3B-4B65-B331-282D5A52A192}" Id="4" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{494AFCE5-0A3B-4B65-B331-282D5A52A192}" Id="5" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="ODataMetadataControllerGetTask" Guid="{9cc23a7f-a107-4036-abc2-37b2726da82c}">
+					<Start>
+						<Event Provider="{494AFCE5-0A3B-4B65-B331-282D5A52A192}" Id="6" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{494AFCE5-0A3B-4B65-B331-282D5A52A192}" Id="7" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="ActivityRuntimeVerboseTask" Guid="{84355b64-8a6d-46a7-9e69-43eaa018261b}">
+					<Start>
+						<Event Provider="{E40398FA-9C4C-468C-A5E7-46F3F1030277}" Id="0" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{E40398FA-9C4C-468C-A5E7-46F3F1030277}" Id="1" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="ActivityRuntimeTask" Guid="{120ddb4f-3e2d-4599-9d2f-95e57d31d303}">
+					<Start>
+						<Event Provider="{E40398FA-9C4C-468C-A5E7-46F3F1030277}" Id="2" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{E40398FA-9C4C-468C-A5E7-46F3F1030277}" Id="3" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="ConnectorActionEnqueueTask" Guid="{bf29c9a6-e366-4850-9be7-670b61bad2f0}">
+					<Start>
+						<Event Provider="{AB525C76-B622-49DF-90EF-C03BB4FAA0D4}" Id="0" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{AB525C76-B622-49DF-90EF-C03BB4FAA0D4}" Id="1" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="ConnectorActionDequeueTask" Guid="{ad42488f-345b-43ca-916e-6477daba4a49}">
+					<Start>
+						<Event Provider="{AB525C76-B622-49DF-90EF-C03BB4FAA0D4}" Id="2" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{AB525C76-B622-49DF-90EF-C03BB4FAA0D4}" Id="3" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="ConnectorActionDownloadTask" Guid="{311a0175-e9b1-4aff-a775-d5483b5e6cda}">
+					<Start>
+						<Event Provider="{AB525C76-B622-49DF-90EF-C03BB4FAA0D4}" Id="4" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{AB525C76-B622-49DF-90EF-C03BB4FAA0D4}" Id="5" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="ConnectorActionAckTask" Guid="{65e9cbee-bf7c-4a0e-a5f4-9690e22ea58b}">
+					<Start>
+						<Event Provider="{AB525C76-B622-49DF-90EF-C03BB4FAA0D4}" Id="6" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{AB525C76-B622-49DF-90EF-C03BB4FAA0D4}" Id="7" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="ConnectorHttpConfigurationTask" Guid="{1035cee8-994c-425e-9937-f11ce47961d5}">
+					<Start>
+						<Event Provider="{AB525C76-B622-49DF-90EF-C03BB4FAA0D4}" Id="8" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{AB525C76-B622-49DF-90EF-C03BB4FAA0D4}" Id="9" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="IntegrationFrameworkVerboseTask" Guid="{a4eaac43-7bb2-4083-869e-537f5d8b59e7}">
+					<Start>
+						<Event Provider="{42C6F0AB-8035-40B6-B124-677F89C3EB2A}" Id="0" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{42C6F0AB-8035-40B6-B124-677F89C3EB2A}" Id="1" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="IntegrationFrameworkTask" Guid="{971d669d-cd52-4a0f-a5e0-8edc2cb4bd4a}">
+					<Start>
+						<Event Provider="{42C6F0AB-8035-40B6-B124-677F89C3EB2A}" Id="2" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{42C6F0AB-8035-40B6-B124-677F89C3EB2A}" Id="3" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="MetadataModelBuilder" Guid="{5033d0bf-733c-4f36-a506-e03425fa082f}">
+					<Start>
+						<Event Provider="{DB19142A-6CD4-4C87-BAFB-9DFE55552F9D}" Id="0" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{DB19142A-6CD4-4C87-BAFB-9DFE55552F9D}" Id="1" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="MetadataResourceLoader" Guid="{87a71cf6-3533-4c60-91dd-9c14bf731b7c}">
+					<Start>
+						<Event Provider="{DB19142A-6CD4-4C87-BAFB-9DFE55552F9D}" Id="2" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{DB19142A-6CD4-4C87-BAFB-9DFE55552F9D}" Id="3" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="MetadataModelBuilderAosConfigInit" Guid="{af4d7094-5557-4e0f-9935-37e69e8d4b68}">
+					<Start>
+						<Event Provider="{DB19142A-6CD4-4C87-BAFB-9DFE55552F9D}" Id="4" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{DB19142A-6CD4-4C87-BAFB-9DFE55552F9D}" Id="5" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="MetadataModelBuilderActions" Guid="{9037b87c-28ef-4bb3-a9ef-52900c4cdf07}">
+					<Start>
+						<Event Provider="{DB19142A-6CD4-4C87-BAFB-9DFE55552F9D}" Id="6" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{DB19142A-6CD4-4C87-BAFB-9DFE55552F9D}" Id="7" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="MetadataModelBuilderTypes" Guid="{20c3432f-51e4-4450-8eaf-51a298f7c2bc}">
+					<Start>
+						<Event Provider="{DB19142A-6CD4-4C87-BAFB-9DFE55552F9D}" Id="8" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{DB19142A-6CD4-4C87-BAFB-9DFE55552F9D}" Id="9" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="MetadataModelBuilderReferences" Guid="{5d22517e-17c8-43eb-804b-28e2d78e719d}">
+					<Start>
+						<Event Provider="{DB19142A-6CD4-4C87-BAFB-9DFE55552F9D}" Id="10" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{DB19142A-6CD4-4C87-BAFB-9DFE55552F9D}" Id="11" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="ODataRequestTask" Guid="{4fb2a5b8-1b70-4fd8-8248-5c89880df0a8}">
+					<Start>
+						<Event Provider="{DB19142A-6CD4-4C87-BAFB-9DFE55552F9D}" Id="12" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{DB19142A-6CD4-4C87-BAFB-9DFE55552F9D}" Id="13" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="ODataEntitySave" Guid="{65bcf24c-57a5-4d8b-8e5c-1949f3ca9f14}">
+					<Start>
+						<Event Provider="{DB19142A-6CD4-4C87-BAFB-9DFE55552F9D}" Id="14" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{DB19142A-6CD4-4C87-BAFB-9DFE55552F9D}" Id="15" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="ODataEntityRead" Guid="{08e34e48-3ecb-4d1f-81ec-e74cd1fea43a}">
+					<Start>
+						<Event Provider="{DB19142A-6CD4-4C87-BAFB-9DFE55552F9D}" Id="16" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{DB19142A-6CD4-4C87-BAFB-9DFE55552F9D}" Id="17" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="ODataEntityValidateWrite" Guid="{6eb74f82-831b-47c3-95be-2493b5438071}">
+					<Start>
+						<Event Provider="{DB19142A-6CD4-4C87-BAFB-9DFE55552F9D}" Id="18" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{DB19142A-6CD4-4C87-BAFB-9DFE55552F9D}" Id="19" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="ODataEntityValidateDelete" Guid="{966eb27d-b9d5-4914-a2b7-c774e0fa6b2e}">
+					<Start>
+						<Event Provider="{DB19142A-6CD4-4C87-BAFB-9DFE55552F9D}" Id="20" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{DB19142A-6CD4-4C87-BAFB-9DFE55552F9D}" Id="21" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="ODataEntityDelete" Guid="{fce9bbea-59b7-4085-9be5-23a4329daf79}">
+					<Start>
+						<Event Provider="{DB19142A-6CD4-4C87-BAFB-9DFE55552F9D}" Id="22" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{DB19142A-6CD4-4C87-BAFB-9DFE55552F9D}" Id="23" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="ODataEntityActionExecute" Guid="{cc2c4698-5437-4b4f-b06b-6eb1e956be5d}">
+					<Start>
+						<Event Provider="{DB19142A-6CD4-4C87-BAFB-9DFE55552F9D}" Id="24" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{DB19142A-6CD4-4C87-BAFB-9DFE55552F9D}" Id="25" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="ODataBatchExecute" Guid="{687dd011-8208-4877-a515-163e54afe272}">
+					<Start>
+						<Event Provider="{DB19142A-6CD4-4C87-BAFB-9DFE55552F9D}" Id="26" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{DB19142A-6CD4-4C87-BAFB-9DFE55552F9D}" Id="27" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="ServiceRegistryActivityScope" Guid="{6c09403c-d3c4-497b-aaab-ca8a0e3d8bec}">
+					<Start>
+						<Event Provider="{2C3AFFC2-9A4D-4328-9600-F7DA1B244253}" Id="0" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{2C3AFFC2-9A4D-4328-9600-F7DA1B244253}" Id="1" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="ConfigurationServiceActivityScope" Guid="{4f61142c-ff11-4641-b6c4-2725854540e8}">
+					<Start>
+						<Event Provider="{2C3AFFC2-9A4D-4328-9600-F7DA1B244253}" Id="2" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{2C3AFFC2-9A4D-4328-9600-F7DA1B244253}" Id="3" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="IntegrationCommonTask" Guid="{ebce2a93-6ad8-4e72-a528-fcdf3b58f0f4}">
+					<Start>
+						<Event Provider="{E302EAEE-788B-4F73-A738-13C86F720DEB}" Id="0" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{E302EAEE-788B-4F73-A738-13C86F720DEB}" Id="1" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="Authentication" Guid="{9af3a78f-73a0-4db2-ac94-65976ed9ea4b}">
+					<Start>
+						<Event Provider="{4010E669-DE2B-41A2-981C-9E96BAB02558}" Id="0" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{4010E669-DE2B-41A2-981C-9E96BAB02558}" Id="1" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="PluginFactoryTypeLoading" Guid="{6903a4e6-4623-40c5-b0c5-bd6e42350585}">
+					<Start>
+						<Event Provider="{4010E669-DE2B-41A2-981C-9E96BAB02558}" Id="2" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{4010E669-DE2B-41A2-981C-9E96BAB02558}" Id="3" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="PerformanceTrackerExecution" Guid="{eb260d23-ad47-4c99-bf95-0aff5ad681e3}">
+					<Start>
+						<Event Provider="{4010E669-DE2B-41A2-981C-9E96BAB02558}" Id="4" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{4010E669-DE2B-41A2-981C-9E96BAB02558}" Id="5" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="PerformanceToolExecution" Guid="{9bbe701e-b52a-40eb-8c73-d87edd74df58}">
+					<Start>
+						<Event Provider="{4010E669-DE2B-41A2-981C-9E96BAB02558}" Id="6" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{4010E669-DE2B-41A2-981C-9E96BAB02558}" Id="7" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="TraceParserDebug" Guid="{40a3384c-8897-462f-9fe6-b9c923d1131d}">
+					<Start>
+						<Event Provider="{4010E669-DE2B-41A2-981C-9E96BAB02558}" Id="8" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{4010E669-DE2B-41A2-981C-9E96BAB02558}" Id="9" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="LoadTestTransactionTimer" Guid="{ae2ba8ee-6c04-4305-80ec-8236e826e7b0}">
+					<Start>
+						<Event Provider="{4010E669-DE2B-41A2-981C-9E96BAB02558}" Id="10" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{4010E669-DE2B-41A2-981C-9E96BAB02558}" Id="11" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="LoadTestTransactionExecution" Guid="{0b1d1733-269c-4639-ad81-c6d3bc545436}">
+					<Start>
+						<Event Provider="{4010E669-DE2B-41A2-981C-9E96BAB02558}" Id="12" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{4010E669-DE2B-41A2-981C-9E96BAB02558}" Id="13" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="TestableExecution" Guid="{06ca92f5-013f-4c91-add4-f672154a17f3}">
+					<Start>
+						<Event Provider="{4010E669-DE2B-41A2-981C-9E96BAB02558}" Id="14" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{4010E669-DE2B-41A2-981C-9E96BAB02558}" Id="15" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="TestMethodExecution" Guid="{912778f9-df9b-4275-a99d-0a554f27a4f9}">
+					<Start>
+						<Event Provider="{4010E669-DE2B-41A2-981C-9E96BAB02558}" Id="16" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{4010E669-DE2B-41A2-981C-9E96BAB02558}" Id="17" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="TestAdaptorExecution" Guid="{7b70bfeb-4de2-4d9c-acbf-1bd5e8f789d2}">
+					<Start>
+						<Event Provider="{4010E669-DE2B-41A2-981C-9E96BAB02558}" Id="18" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{4010E669-DE2B-41A2-981C-9E96BAB02558}" Id="19" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="QueueProcessorVerboseTask" Guid="{ca8b362a-6186-4031-bfed-dc9a8e4e5a90}">
+					<Start>
+						<Event Provider="{178BE71D-49F9-4F6B-8690-115B91087D5E}" Id="0" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{178BE71D-49F9-4F6B-8690-115B91087D5E}" Id="1" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="QueueProcessorTask" Guid="{db7d5998-a026-40a2-af43-faa1b6704bf4}">
+					<Start>
+						<Event Provider="{178BE71D-49F9-4F6B-8690-115B91087D5E}" Id="2" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{178BE71D-49F9-4F6B-8690-115B91087D5E}" Id="3" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="XppServicesVerboseTask" Guid="{b55ccb9a-b5f4-4e46-b1d5-06cab616849b}">
+					<Start>
+						<Event Provider="{F9F0D214-D940-41B3-A77C-D5D931BB82FB}" Id="0" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{F9F0D214-D940-41B3-A77C-D5D931BB82FB}" Id="1" Version="0" />
+					</Stop>
+									</Region>
+								<Region Name="XppServicesTask" Guid="{d523a213-a762-4fdb-87ba-f2f487678994}">
+					<Start>
+						<Event Provider="{F9F0D214-D940-41B3-A77C-D5D931BB82FB}" Id="2" Version="0" />
+					</Start>
+					<Stop>
+						<Event Provider="{F9F0D214-D940-41B3-A77C-D5D931BB82FB}" Id="3" Version="0" />
+					</Stop>
+									</Region>
+							</RegionRoot>
+		</Regions>
+	</Instrumentation>
+</InstrumentationManifest>

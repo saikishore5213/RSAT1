@@ -1,0 +1,59 @@
+<Project>
+  <KnownTypesList>
+    <KnownType XppName="anytype" AxType="Primitive" ManagedNamespace="System" ManagedClassName="Object" />
+    <KnownType XppName="str" AxType="Primitive" ManagedNamespace="System" ManagedClassName="String" />
+    <KnownType XppName="string" AxType="Primitive" ManagedNamespace="System" ManagedClassName="String" />
+    <KnownType XppName="int" AxType="Primitive" ManagedNamespace="System" ManagedClassName="Int32" />
+    <KnownType XppName="integer" AxType="Primitive" ManagedNamespace="System" ManagedClassName="Int32" />
+    <KnownType XppName="int64" AxType="Primitive" ManagedNamespace="System" ManagedClassName="Int64" />
+    <KnownType XppName="timeofday" AxType="Primitive" ManagedNamespace="System" ManagedClassName="Int32" />
+    <KnownType XppName="time" AxType="Primitive" ManagedNamespace="System" ManagedClassName="Int32" />
+    <KnownType XppName="real" AxType="Primitive" ManagedNamespace="System" ManagedClassName="Decimal" />
+    <KnownType XppName="guid" AxType="Primitive" ManagedNamespace="System" ManagedClassName="Guid" />
+    <KnownType XppName="boolean" AxType="Primitive" ManagedNamespace="System" ManagedClassName="Boolean" />
+    <KnownType XppName="utcdatetime" AxType="Primitive" ManagedNamespace="System" ManagedClassName="DateTime" />
+    <KnownType XppName="date" AxType="Primitive" ManagedNamespace="System" ManagedClassName="DateTime" />
+    <KnownType XppName="enum" AxType="Primitive" ManagedNamespace="System" ManagedClassName="Int32" />
+    <KnownType XppName="classid" AxType="Primitive" ManagedNamespace="System" ManagedClassName="Int32" />
+    <KnownType XppName="object" AxType="Primitive" ManagedNamespace="System" ManagedClassName="Object" />
+    <KnownType XppName="tableid" AxType="Primitive" ManagedNamespace="System" ManagedClassName="Int32" />
+    <KnownType XppName="fieldname" AxType="Primitive" ManagedNamespace="System" ManagedClassName="String" />
+    <KnownType XppName="datetime" AxType="Primitive" ManagedNamespace="System" ManagedClassName="DateTime" />
+    <KnownType XppName="recId" AxType="Primitive" ManagedNamespace="System" ManagedClassName="Int64" />
+    <KnownType XppName="workflowApprovalName" AxType="Primitive" ManagedNamespace="System" ManagedClassName="String" />
+    <KnownType XppName="workflowTaskName" AxType="Primitive" ManagedNamespace="System" ManagedClassName="String" />
+    <KnownType XppName="workflowCategoryName" AxType="Primitive" ManagedNamespace="System" ManagedClassName="String" />
+    <KnownType XppName="workflowTypeName" AxType="Primitive" ManagedNamespace="System" ManagedClassName="String" />
+    <KnownType XppName="container" AxType="Primitive" ManagedNamespace="MS.Dynamics.TestTools.AxProxyRuntime.AxObjects" ManagedClassName="AxContainer" />
+    <KnownType XppName="fieldId" AxType="Primitive" ManagedNamespace="System" ManagedClassName="Int32" />
+    <KnownType XppName="indexId" AxType="Primitive" ManagedNamespace="System" ManagedClassName="Int32" />
+    <KnownType XppName="identifiername" AxType="Primitive" ManagedNamespace="System" ManagedClassName="String" />
+    <KnownType XppName="configurationKeyId" AxType="Primitive" ManagedNamespace="System" ManagedClassName="Int32" />
+    <KnownType XppName="enumId" AxType="Primitive" ManagedNamespace="System" ManagedClassName="Int32" />
+    <KnownType XppName="validToDate" AxType="Primitive" ManagedNamespace="System" ManagedClassName="DateTime" />
+    <KnownType XppName="selectableDataArea" AxType="Primitive" ManagedNamespace="System" ManagedClassName="String" />
+    <KnownType XppName="className" AxType="Primitive" ManagedNamespace="System" ManagedClassName="String" />   
+
+    <!-- These types are hard-coded in ProxyDataTypeLibrary, but added here so
+    that they properly show up for consuming libraries -->
+    <KnownType XppName="AccessRight" AxType="Enum" ManagedNamespace="MS.Dynamics.TestTools.AxProxyLibrary.KernelObjects" ManagedClassName="AccessRight" />
+    <KnownType XppName="AccessType" AxType="Enum" ManagedNamespace="MS.Dynamics.TestTools.AxProxyLibrary.KernelObjects" ManagedClassName="AccessType" />
+    <KnownType XppName="ApplCodeDocType" AxType="Enum" ManagedNamespace="MS.Dynamics.TestTools.AxProxyLibrary.KernelObjects" ManagedClassName="ApplCodeDocType" />
+    <KnownType XppName="ApplHelpType" AxType="Enum" ManagedNamespace="MS.Dynamics.TestTools.AxProxyLibrary.KernelObjects" ManagedClassName="ApplHelpType" />
+    <KnownType XppName="KernelHelpType" AxType="Enum" ManagedNamespace="MS.Dynamics.TestTools.AxProxyLibrary.KernelObjects" ManagedClassName="KernelHelpType" />
+    <KnownType XppName="MenuItemType" AxType="Enum" ManagedNamespace="MS.Dynamics.TestTools.AxProxyLibrary.KernelObjects" ManagedClassName="MenuItemType" />
+    <KnownType XppName="NoYes" AxType="Enum" ManagedNamespace="MS.Dynamics.TestTools.AxProxyLibrary.KernelObjects" ManagedClassName="NoYes" />
+    <KnownType XppName="OpenMode" AxType="Enum" ManagedNamespace="MS.Dynamics.TestTools.AxProxyLibrary.KernelObjects" ManagedClassName="OpenMode" />
+    <KnownType XppName="SelectionField" AxType="Enum" ManagedNamespace="MS.Dynamics.TestTools.AxProxyLibrary.KernelObjects" ManagedClassName="SelectionField" />
+    <KnownType XppName="SessionType" AxType="Enum" ManagedNamespace="MS.Dynamics.TestTools.AxProxyLibrary.KernelObjects" ManagedClassName="SessionType" />
+    <KnownType XppName="SortOrder" AxType="Enum" ManagedNamespace="MS.Dynamics.TestTools.AxProxyLibrary.KernelObjects" ManagedClassName="SortOrder" />
+    <KnownType XppName="Types" AxType="Enum" ManagedNamespace="MS.Dynamics.TestTools.AxProxyLibrary.KernelObjects" ManagedClassName="Types" />
+    <KnownType XppName="UnionType" AxType="Enum" ManagedNamespace="MS.Dynamics.TestTools.AxProxyLibrary.KernelObjects" ManagedClassName="UnionType" />
+    <KnownType XppName="_K_Units" AxType="Enum" ManagedNamespace="MS.Dynamics.TestTools.AxProxyLibrary.KernelObjects" ManagedClassName="_K_Units" />
+    <KnownType XppName="UtilElementType" AxType="Enum" ManagedNamespace="MS.Dynamics.TestTools.AxProxyLibrary.KernelObjects" ManagedClassName="UtilElementType" />
+    <KnownType XppName="UtilEntryLevel" AxType="Enum" ManagedNamespace="MS.Dynamics.TestTools.AxProxyLibrary.KernelObjects" ManagedClassName="UtilEntryLevel" />
+    <KnownType XppName="UtilFileType" AxType="Enum" ManagedNamespace="MS.Dynamics.TestTools.AxProxyLibrary.KernelObjects" ManagedClassName="UtilFileType" />
+    <KnownType XppName="WorkflowElementOutcomeType" AxType="Enum" ManagedNamespace="MS.Dynamics.TestTools.AxProxyLibrary.KernelObjects" ManagedClassName="WorkflowElementOutcomeType" />
+    <KnownType XppName="WorkflowElementType" AxType="Enum" ManagedNamespace="MS.Dynamics.TestTools.AxProxyLibrary.KernelObjects" ManagedClassName="WorkflowElementType" />
+  </KnownTypesList>
+</Project>

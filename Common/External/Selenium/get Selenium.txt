@@ -1,0 +1,18 @@
+To enable playback, you need to download Selenium webdriver.
+1. Go to http://docs.seleniumhq.org/download/
+2. Click "Previous Releases" in the top left corner
+3. Click "3.13".
+4. Download "selenium-dotnet-strongnamed-3.13.1.zip"
+5. Open downloaded archive and navigate to "Selenium.WebDriver.StrongNamed.3.13.1.nupkg\lib"
+6. Move the contents to "C:\Program Files (x86)\Regression Suite Automation Tool\Common\External\Selenium"
+7. Go back in the browser and open 3.4 folder
+
+To support playback in IE browser:
+7. Download "IEDriverServer_x64_3.4.0.zip"
+
+To support playback in Google Chrome browser:
+7.1. Go to https://sites.google.com/a/chromium.org/chromedriver/downloads
+7.2. Go to the link opposite "Latest release:"
+7.3. Download "chromedriver_win32.zip"
+
+8. Unzip the downloaded file and move the contents to "C:\Program Files (x86)\Regression Suite Automation Tool\Common\External\Selenium"

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ServiceModelInstallationInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>PerfSDK</Name>
+  <Description />
+  <InstallationDateTime>2020-11-16T23:22:27.1127134-08:00</InstallationDateTime>
+  <InstallationInfoFilePath>d:\dbs\sh\l23t\1116_220412\cmd\n\Drop\retail\Services\PerfSDK\Scripts\InstallationInfo.xml</InstallationInfoFilePath>
+  <Version>7.0.5874.0</Version>
+  <Publisher>Microsoft Corporation</Publisher>
+  <GeneratedFromAXMetadata>false</GeneratedFromAXMetadata>
+  <Configuration />
+  <CustomName />
+  <CustomVersion />
+  <CustomDescription />
+  <CustomPublisher />
+  <ServiceModelGroup>Platform</ServiceModelGroup>
+  <ReleaseVersion>Update40</ReleaseVersion>
+  <ProductRegisteredName>Microsoft Dynamics 365 for Finance and Operations</ProductRegisteredName>
+</ServiceModelInstallationInfo>

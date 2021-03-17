@@ -1,0 +1,12 @@
+﻿
+
+
+
+<InstrumentationManifest>
+	<Instrumentation>
+		<Regions>
+			<RegionRoot Guid="{393f3259-b482-4336-b900-bb77c1f9fb97}" Name="d:\dbs\Cx\l23t\.A\MsBuild.Corext.CT1Bd7U7E7_q1hBCssLvYw\v15.0\bin\MSBuild.exe">
+				</RegionRoot>
+		</Regions>
+	</Instrumentation>
+</InstrumentationManifest>
